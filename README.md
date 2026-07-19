@@ -576,7 +576,7 @@ set_seed(42)  # 固定随机种子
   year    = {2026},
   note    = {Doctoral Research, Management Science and Engineering,
              Yanshan University, School of Economics and Management},
-  url     = {<repository_url>}
+  url     = {https://github.com/lixiangyang12/MAEA-HCDS}
 }
 ```
 

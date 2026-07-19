@@ -25,9 +25,9 @@ keywords:
   - 持续学习
   - 供应链管理
 license: "MIT"
-repository-code: "https://github.com/yanglixiang/MAEA-HCDS"
-url: "https://github.com/yanglixiang/MAEA-HCDS"
-commit: "719-final"
+repository-code: "https://github.com/lixiangyang12/MAEA-HCDS"
+url: "https://github.com/lixiangyang12/MAEA-HCDS"
+commit: "25e6975"
 date-released: "2026-07-19"
 version: "719"
 preferred-citation:
