@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "如本代码对您的研究有帮助，请引用以下论文。"
+title: "情绪扰动、激励阻断与协同鲁棒：多智能体供应链牛鞭效应缓解研究"
+abstract: >
+  牛鞭效应的本质是行为性问题而非纯技术性失灵。本文在四级供应链中构建多智能体
+  情绪感知人智协同决策系统（MAEA-HCDS），以DQN为基础决策引擎，嵌入情绪演化
+  方程、正向激励函数与持续学习模块。系统遵循"情绪扰动→激励阻断→协同鲁棒"
+  递进因果链。基于20000周期仿真与76次动态突发事件的四组对比实验表明：制造商
+  BWE从301.75降至10.07（总降幅96.66%），系统总成本较理性决策基线下降72.5%，
+  验证了协同通信机制作为核心机制（独立效应-55.79%）的有效性。
+authors:
+  - family-names: "杨"
+    given-names: "理想"
+    affiliation: "燕山大学经济与管理学院"
+    email: "yanglixiang@stdu.ysu.edu.cn"
+  - family-names: "王"
+    given-names: "晶"
+    affiliation: "燕山大学经济管理与学院"
+keywords:
+  - 牛鞭效应
+  - 人智协同
+  - 多智能体系统
+  - 情绪感知
+  - 深度强化学习
+  - 持续学习
+  - 供应链管理
+license: "MIT"
+repository-code: "https://github.com/yanglixiang/MAEA-HCDS"
+url: "https://github.com/yanglixiang/MAEA-HCDS"
+commit: "719-final"
+date-released: "2026-07-19"
+version: "719"
+preferred-citation:
+  type: article
+  title: "情绪扰动、激励阻断与协同鲁棒：多智能体供应链牛鞭效应缓解研究"
+  authors:
+    - family-names: "杨"
+      given-names: "理想"
+    - family-names: "王"
+      given-names: "晶"
+  journal-name: "中国管理科学 (投稿中)"
+  year: 2026
+  notes: "Doctoral Research, Yanshan University, School of Economics and Management"

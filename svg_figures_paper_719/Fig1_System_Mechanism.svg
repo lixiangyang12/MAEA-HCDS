@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="627.850421pt" height="805.5792pt" viewBox="0 0 627.850421 805.5792" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-07-19T17:10:39.433895</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 805.5792 
+L 627.850421 805.5792 
+L 627.850421 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 30.064896 243.375408 
+L 555.957504 243.375408 
+Q 564.53184 243.375408 564.53184 231.760224 
+L 564.53184 107.864928 
+Q 564.53184 96.249744 555.957504 96.249744 
+L 30.064896 96.249744 
+Q 21.49056 96.249744 21.49056 107.864928 
+L 21.49056 231.760224 
+Q 21.49056 243.375408 30.064896 243.375408 
+z
+" clip-path="url(#p225d558f88)" style="fill: #4c72b0; opacity: 0.08; stroke: #4c72b0; stroke-width: 1.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 32.351386 124.126186 
+L 84.940646 124.126186 
+Q 87.798758 124.126186 87.798758 120.254458 
+L 87.798758 107.090582 
+Q 87.798758 103.218854 84.940646 103.218854 
+L 32.351386 103.218854 
+Q 29.493274 103.218854 29.493274 107.090582 
+L 29.493274 120.254458 
+Q 29.493274 124.126186 32.351386 124.126186 
+z
+" clip-path="url(#p225d558f88)" style="fill: #4c72b0; stroke: #4c72b0; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 437.631667 152.002627 
+L 554.242637 152.002627 
+Q 557.100749 152.002627 557.100749 148.130899 
+L 557.100749 121.803149 
+Q 557.100749 117.931421 554.242637 117.931421 
+L 437.631667 117.931421 
+Q 434.773555 117.931421 434.773555 121.803149 
+L 434.773555 148.130899 
+Q 434.773555 152.002627 437.631667 152.002627 
+z
+" clip-path="url(#p225d558f88)" style="fill: #ffffff; opacity: 0.9; stroke: #4c72b0; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 30.064896 405.987984 
+L 555.957504 405.987984 
+Q 564.53184 405.987984 564.53184 394.3728 
+L 564.53184 270.477504 
+Q 564.53184 258.86232 555.957504 258.86232 
+L 30.064896 258.86232 
+Q 21.49056 258.86232 21.49056 270.477504 
+L 21.49056 394.3728 
+Q 21.49056 405.987984 30.064896 405.987984 
+z
+" clip-path="url(#p225d558f88)" style="fill: #dd8452; opacity: 0.08; stroke: #dd8452; stroke-width: 1.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 32.351386 286.738762 
+L 84.940646 286.738762 
+Q 87.798758 286.738762 87.798758 282.867034 
+L 87.798758 269.703158 
+Q 87.798758 265.83143 84.940646 265.83143 
+L 32.351386 265.83143 
+Q 29.493274 265.83143 29.493274 269.703158 
+L 29.493274 282.867034 
+Q 29.493274 286.738762 32.351386 286.738762 
+z
+" clip-path="url(#p225d558f88)" style="fill: #dd8452; stroke: #dd8452; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 437.631667 314.615203 
+L 554.242637 314.615203 
+Q 557.100749 314.615203 557.100749 310.743475 
+L 557.100749 284.415725 
+Q 557.100749 280.543997 554.242637 280.543997 
+L 437.631667 280.543997 
+Q 434.773555 280.543997 434.773555 284.415725 
+L 434.773555 310.743475 
+Q 434.773555 314.615203 437.631667 314.615203 
+z
+" clip-path="url(#p225d558f88)" style="fill: #ffffff; opacity: 0.9; stroke: #dd8452; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 30.064896 568.60056 
+L 555.957504 568.60056 
+Q 564.53184 568.60056 564.53184 556.985376 
+L 564.53184 433.09008 
+Q 564.53184 421.474896 555.957504 421.474896 
+L 30.064896 421.474896 
+Q 21.49056 421.474896 21.49056 433.09008 
+L 21.49056 556.985376 
+Q 21.49056 568.60056 30.064896 568.60056 
+z
+" clip-path="url(#p225d558f88)" style="fill: #55a868; opacity: 0.08; stroke: #55a868; stroke-width: 1.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 32.351386 449.351338 
+L 84.940646 449.351338 
+Q 87.798758 449.351338 87.798758 445.47961 
+L 87.798758 432.315734 
+Q 87.798758 428.444006 84.940646 428.444006 
+L 32.351386 428.444006 
+Q 29.493274 428.444006 29.493274 432.315734 
+L 29.493274 445.47961 
+Q 29.493274 449.351338 32.351386 449.351338 
+z
+" clip-path="url(#p225d558f88)" style="fill: #55a868; stroke: #55a868; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 437.631667 477.227779 
+L 554.242637 477.227779 
+Q 557.100749 477.227779 557.100749 473.356051 
+L 557.100749 447.028301 
+Q 557.100749 443.156573 554.242637 443.156573 
+L 437.631667 443.156573 
+Q 434.773555 443.156573 434.773555 447.028301 
+L 434.773555 473.356051 
+Q 434.773555 477.227779 437.631667 477.227779 
+z
+" clip-path="url(#p225d558f88)" style="fill: #ffffff; opacity: 0.9; stroke: #55a868; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 30.064896 731.213136 
+L 555.957504 731.213136 
+Q 564.53184 731.213136 564.53184 719.597952 
+L 564.53184 595.702656 
+Q 564.53184 584.087472 555.957504 584.087472 
+L 30.064896 584.087472 
+Q 21.49056 584.087472 21.49056 595.702656 
+L 21.49056 719.597952 
+Q 21.49056 731.213136 30.064896 731.213136 
+z
+" clip-path="url(#p225d558f88)" style="fill: #8172b3; opacity: 0.08; stroke: #8172b3; stroke-width: 1.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 32.351386 611.963914 
+L 84.940646 611.963914 
+Q 87.798758 611.963914 87.798758 608.092186 
+L 87.798758 594.92831 
+Q 87.798758 591.056582 84.940646 591.056582 
+L 32.351386 591.056582 
+Q 29.493274 591.056582 29.493274 594.92831 
+L 29.493274 608.092186 
+Q 29.493274 611.963914 32.351386 611.963914 
+z
+" clip-path="url(#p225d558f88)" style="fill: #8172b3; stroke: #8172b3; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 437.631667 639.840355 
+L 554.242637 639.840355 
+Q 557.100749 639.840355 557.100749 635.968627 
+L 557.100749 609.640877 
+Q 557.100749 605.769149 554.242637 605.769149 
+L 437.631667 605.769149 
+Q 434.773555 605.769149 434.773555 609.640877 
+L 434.773555 635.968627 
+Q 434.773555 639.840355 437.631667 639.840355 
+z
+" clip-path="url(#p225d558f88)" style="fill: #ffffff; opacity: 0.9; stroke: #8172b3; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="293.0112" y="40.822243" transform="rotate(-0 293.0112 40.822243)">多智能体情绪感知人智协同决策系统 (MAEA-HCDS)</text>
+   </g>
+   <g id="text_2">
+    <text style="font-style: italic; font-size: 9.5px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #444444" x="293.0112" y="65.126526" transform="rotate(-0 293.0112 65.126526)">Multi-Agent Emotion-Aware Human-AI Collaborative Decision System</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="58.646016" y="115.836895" transform="rotate(-0 58.646016 115.836895)">Layer 1</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #4c72b0" x="98.659584" y="112.442916" transform="rotate(-0 98.659584 112.442916)">行为感知层</text>
+   </g>
+   <g id="text_5">
+    <text style="font-style: italic; font-size: 8px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #555555" x="98.659584" y="124.111899" transform="rotate(-0 98.659584 124.111899)">Behavior Perception Layer  |  诊断 · 何时需干预</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #4c72b0" x="35.78112" y="145.233752" transform="rotate(-0 35.78112 145.233752)">■ 理论支柱 / Theoretical Pillars:</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 7.2px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #333333" x="41.497344" y="156.209436" transform="rotate(-0 41.497344 156.209436)">· Schweitzer &amp; Cachon [18] 行为运营管理</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 7.2px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #333333" x="41.497344" y="166.275929" transform="rotate(-0 41.497344 166.275929)">· Gino &amp; Pisano [19] 行为运营</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 7.2px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #333333" x="41.497344" y="176.342422" transform="rotate(-0 41.497344 176.342422)">· Picard [20] 情感计算</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 7.2px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #333333" x="41.497344" y="186.408914" transform="rotate(-0 41.497344 186.408914)">· Poria等 [21] 多模态情感融合</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 7.2px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #333333" x="41.497344" y="196.748782" transform="rotate(-0 41.497344 196.748782)">· Kahneman &amp; Tversky [22] 前景理论</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 7.2px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #333333" x="41.497344" y="206.801775" transform="rotate(-0 41.497344 206.801775)">· Ortony等 [26] OCC情绪评价</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #4c72b0" x="247.281408" y="145.233752" transform="rotate(-0 247.281408 145.233752)">■ 核心机制 / Core Mechanisms:</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 7.2px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #333333" x="252.997632" y="156.482811" transform="rotate(-0 252.997632 156.482811)">· tanh饱和动力学情绪演化方程 E_t = tanh(α·E_{t-1}+γ·Φ_t)</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 7.2px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #333333" x="252.997632" y="166.585304" transform="rotate(-0 252.997632 166.585304)">· α=0.7, γ=2.0；Φ_t = w_s·缺货率 + w_m·精准匹配度 + w_e·过度积压率</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 7.2px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #333333" x="252.997632" y="176.342422" transform="rotate(-0 252.997632 176.342422)">· 损失厌恶系数 (1.5, 2.5) 使有效缺货惩罚放大约70%</text>
+   </g>
+   <g id="text_17">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #4c72b0" x="438.774912" y="125.388949" transform="rotate(-0 438.774912 125.388949)">输出 / Output:</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 6.8px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #222222" x="438.774912" y="139.268967" transform="rotate(-0 438.774912 139.268967)">输出：情绪状态 E_t ∈ [-1, 1]（-1恐慌饱和 / +1乐观饱和）</text>
+   </g>
+   <g id="text_19">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="58.646016" y="278.449471" transform="rotate(-0 58.646016 278.449471)">Layer 2</text>
+   </g>
+   <g id="text_20">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #dd8452" x="98.659584" y="275.055492" transform="rotate(-0 98.659584 275.055492)">智能决策层</text>
+   </g>
+   <g id="text_21">
+    <text style="font-style: italic; font-size: 8px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #555555" x="98.659584" y="286.7401" transform="rotate(-0 98.659584 286.7401)">Intelligent Decision Layer  |  治疗 · 如何个体干预</text>
+   </g>
+   <g id="text_22">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #dd8452" x="35.78112" y="307.846328" transform="rotate(-0 35.78112 307.846328)">■ 理论支柱 / Theoretical Pillars:</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 7.2px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #333333" x="41.497344" y="318.822012" transform="rotate(-0 41.497344 318.822012)">· Mnih等 [12] 深度Q网络 (DQN)</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 7.2px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #333333" x="41.497344" y="328.888505" transform="rotate(-0 41.497344 328.888505)">· Schaul等 [27] 优先经验回放 (PER)</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 7.2px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #333333" x="41.497344" y="338.954998" transform="rotate(-0 41.497344 338.954998)">· 李勇等 [10] IDMR智慧决策机器人</text>
+   </g>
+   <g id="text_26">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #dd8452" x="247.281408" y="307.846328" transform="rotate(-0 247.281408 307.846328)">■ 核心机制 / Core Mechanisms:</text>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 7.2px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #333333" x="252.997632" y="319.088637" transform="rotate(-0 252.997632 319.088637)">· DQN基础学习器 + ε-greedy动作选择</text>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 7.2px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #333333" x="252.997632" y="328.888505" transform="rotate(-0 252.997632 328.888505)">· 库存精准匹配正向激励函数：将"最小化缺货"重塑为"最大化精准匹配"</text>
+   </g>
+   <g id="text_29">
+    <text style="font-size: 7.2px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #333333" x="252.997632" y="339.200248" transform="rotate(-0 252.997632 339.200248)">· 奖励 r = w_s·r_shortage + w_m·r_match + w_e·r_overstock + w_e·r_emotion</text>
+   </g>
+   <g id="text_30">
+    <text style="font-size: 7.2px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #333333" x="252.997632" y="349.02149" transform="rotate(-0 252.997632 349.02149)">· PER按TD误差优先采样，提升样本效率</text>
+   </g>
+   <g id="text_31">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #dd8452" x="438.774912" y="288.001525" transform="rotate(-0 438.774912 288.001525)">输出 / Output:</text>
+   </g>
+   <g id="text_32">
+    <text style="font-size: 6.8px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #222222" transform="translate(438.774912 297.470468)">输出：订货决策</text>
+    <text style="font-size: 6.8px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #222222" transform="translate(438.774912 306.034431)">a_t，目标重塑阻断"缺货→恐慌→过度订货"恶性循环</text>
+   </g>
+   <g id="text_33">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="58.646016" y="441.062047" transform="rotate(-0 58.646016 441.062047)">Layer 3</text>
+   </g>
+   <g id="text_34">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #55a868" x="98.659584" y="437.668068" transform="rotate(-0 98.659584 437.668068)">多体协同层</text>
+   </g>
+   <g id="text_35">
+    <text style="font-style: italic; font-size: 8px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #555555" x="98.659584" y="449.375801" transform="rotate(-0 98.659584 449.375801)">Multi-Agent Coordination Layer  |  免疫 · 如何系统强化</text>
+   </g>
+   <g id="text_36">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #55a868" x="35.78112" y="470.458904" transform="rotate(-0 35.78112 470.458904)">■ 理论支柱 / Theoretical Pillars:</text>
+   </g>
+   <g id="text_37">
+    <text style="font-size: 7.2px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #333333" x="41.497344" y="481.434588" transform="rotate(-0 41.497344 481.434588)">· Foerster等 [13] CTDE范式 (集中训练分散执行)</text>
+   </g>
+   <g id="text_38">
+    <text style="font-size: 7.2px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #333333" x="41.497344" y="491.501081" transform="rotate(-0 41.497344 491.501081)">· Rashid等 [14] QMIX值分解</text>
+   </g>
+   <g id="text_39">
+    <text style="font-size: 7.2px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #333333" x="41.497344" y="501.567574" transform="rotate(-0 41.497344 501.567574)">· Lee等 [1-2] 牛鞭效应理论</text>
+   </g>
+   <g id="text_40">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #55a868" x="247.281408" y="470.458904" transform="rotate(-0 247.281408 470.458904)">■ 核心机制 / Core Mechanisms:</text>
+   </g>
+   <g id="text_41">
+    <text style="font-size: 7.2px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #333333" x="252.997632" y="481.434588" transform="rotate(-0 252.997632 481.434588)">· 信息共享通道：下游节点→上游节点传递订单流+情绪状态</text>
+   </g>
+   <g id="text_42">
+    <text style="font-size: 7.2px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #333333" x="252.997632" y="491.501081" transform="rotate(-0 252.997632 491.501081)">· CTDE：集中训练时共享全局信息，分散执行时各节点独立决策</text>
+   </g>
+   <g id="text_43">
+    <text style="font-size: 7.2px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #333333" x="252.997632" y="501.567574" transform="rotate(-0 252.997632 501.567574)">· QMIX单调性约束：保证联合动作值函数的可分解性</text>
+   </g>
+   <g id="text_44">
+    <text style="font-size: 7.2px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #333333" x="252.997632" y="511.634066" transform="rotate(-0 252.997632 511.634066)">· 从"反应式"到"预应式"决策转变</text>
+   </g>
+   <g id="text_45">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #55a868" x="438.774912" y="450.614101" transform="rotate(-0 438.774912 450.614101)">输出 / Output:</text>
+   </g>
+   <g id="text_46">
+    <text style="font-size: 6.8px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #222222" x="438.774912" y="464.387869" transform="rotate(-0 438.774912 464.387869)">输出：协同订货策略，上游节点提前感知下游需求突变</text>
+   </g>
+   <g id="text_47">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="58.646016" y="603.674623" transform="rotate(-0 58.646016 603.674623)">Layer 4</text>
+   </g>
+   <g id="text_48">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #8172b3" x="98.659584" y="600.280644" transform="rotate(-0 98.659584 600.280644)">持续适应层</text>
+   </g>
+   <g id="text_49">
+    <text style="font-style: italic; font-size: 8px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #555555" x="98.659584" y="611.977127" transform="rotate(-0 98.659584 611.977127)">Continual Adaptation Layer  |  鲁棒 · 如何长期稳健</text>
+   </g>
+   <g id="text_50">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #8172b3" x="35.78112" y="633.07148" transform="rotate(-0 35.78112 633.07148)">■ 理论支柱 / Theoretical Pillars:</text>
+   </g>
+   <g id="text_51">
+    <text style="font-size: 7.2px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #333333" x="41.497344" y="644.307039" transform="rotate(-0 41.497344 644.307039)">· Kirkpatrick等 [17] 弹性权重巩固 (EWC)</text>
+   </g>
+   <g id="text_52">
+    <text style="font-size: 7.2px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #333333" x="41.497344" y="654.113657" transform="rotate(-0 41.497344 654.113657)">· Schaul等 [27] 优先经验回放 (PER)</text>
+   </g>
+   <g id="text_53">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #8172b3" x="247.281408" y="633.07148" transform="rotate(-0 247.281408 633.07148)">■ 核心机制 / Core Mechanisms:</text>
+   </g>
+   <g id="text_54">
+    <text style="font-size: 7.2px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #333333" x="252.997632" y="644.264289" transform="rotate(-0 252.997632 644.264289)">· EWC正则损失 L_EWC = λ·Σ F_i·(θ_i - θ*_i)²，λ=2000</text>
+   </g>
+   <g id="text_55">
+    <text style="font-size: 7.2px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #333333" x="252.997632" y="654.415157" transform="rotate(-0 252.997632 654.415157)">· Fisher信息矩阵对角元 F_i 量化参数重要性</text>
+   </g>
+   <g id="text_56">
+    <text style="font-size: 7.2px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #333333" x="252.997632" y="664.489525" transform="rotate(-0 252.997632 664.489525)">· 任务切换前调用 consolidate_knowledge() 保护旧任务知识</text>
+   </g>
+   <g id="text_57">
+    <text style="font-size: 7.2px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #333333" x="252.997632" y="674.246642" transform="rotate(-0 252.997632 674.246642)">· 抑制需求模式漂移/人员更替下的灾难性遗忘</text>
+   </g>
+   <g id="text_58">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #8172b3" x="438.774912" y="613.226677" transform="rotate(-0 438.774912 613.226677)">输出 / Output:</text>
+   </g>
+   <g id="text_59">
+    <text style="font-size: 6.8px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #222222" x="438.774912" y="627.136445" transform="rotate(-0 438.774912 627.136445)">输出：长期稳健决策，SL提升1.42pp，BWE遗忘率-53.77%</text>
+   </g>
+   <g id="text_60">
+    <text style="font-weight: 700; font-size: 8.5px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #222222" transform="translate(546.139952 74.078002)">递进因果链</text>
+    <text style="font-weight: 700; font-size: 8.5px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #222222" transform="translate(514.129483 84.344674)">Progressive Causal Chain</text>
+   </g>
+   <g id="patch_14">
+    <path d="M 567.389952 179.554046 
+Q 567.389952 251.119144 567.389952 321.007191 
+" style="fill: none; stroke: #666666; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 569.189952 317.407191 
+L 567.389952 321.007191 
+L 565.589952 317.407191 
+" style="fill: none; stroke: #666666; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 567.389952 357.653534 
+Q 567.389952 429.218632 567.389952 499.106679 
+" style="fill: none; stroke: #666666; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 569.189952 495.506679 
+L 567.389952 499.106679 
+L 565.589952 495.506679 
+" style="fill: none; stroke: #666666; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 567.389952 535.756567 
+Q 567.389952 587.961441 567.389952 638.489265 
+" style="fill: none; stroke: #666666; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 569.189952 634.889265 
+L 567.389952 638.489265 
+L 565.589952 634.889265 
+" style="fill: none; stroke: #666666; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="text_61">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #222222" x="293.0112" y="745.469257" transform="rotate(-0 293.0112 745.469257)">四级供应链：零售商 → 批发商 → 分销商 → 制造商  |  Four-echelon supply chain</text>
+   </g>
+  </g>
+  <g id="text_62">
+   <text style="font-size: 9.5px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif" transform="translate(193.820067 784.354528)">图1 多智能体情绪感知人智协同决策系统机制图</text>
+   <text style="font-size: 9.5px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif" transform="translate(88.408661 795.962637)">Fig.1 Mechanism of Multi-Agent Emotion-Aware Human-AI Collaborative Decision System</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p225d558f88">
+   <rect x="7.2" y="7.2" width="571.6224" height="774.3456"/>
+  </clipPath>
+ </defs>
+</svg>

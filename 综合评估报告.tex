@@ -1,0 +1,172 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{ctex}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{amsmath}
+\usepackage{geometry}
+\geometry{a4paper, margin=2cm}
+
+\title{多智能体供应链协同系统综合评估报告}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\section*{维度一: 传统供应链指标}
+
+\subsection*{表1. 三组实验牛鞭效应方差比对比}
+
+\begin{table}[h]
+\centering
+\caption{三组实验各节点牛鞭效应方差比 (BWE = var($q$)/var($D$))}
+\label{tab:bwe}
+\begin{tabular}{lcccccc}
+\toprule
+实验组 & 零售商 & 批发商 & 分销商 & 制造商 & 平均 & 总成本 \\
+\midrule
+Baseline (理性决策) & 11.21 & 13.35 & 63.53 & 499.40 & 146.88 & 2870.48 \\
+Exp_1 (分销商IDMR) & 4.13 & 15.58 & 10.86 & 16.07 & 11.66 & 34.21 \\
+Exp_2 (多智能体+情绪+协同) & 3.55 & 6.91 & 8.32 & 8.71 & 6.87 & 41.05 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection*{表2. 三组实验服务水平 (SL) 对比}
+
+\begin{table}[h]
+\centering
+\caption{三组实验各节点服务水平 (SL = fulfilled/demand)}
+\label{tab:sl}
+\begin{tabular}{lccccc}
+\toprule
+实验组 & 零售商 & 批发商 & 分销商 & 制造商 & 平均 \\
+\midrule
+Baseline (理性决策) & 0.0003 & 0.9989 & 0.9988 & 0.9988 & 0.7492 \\
+Exp_1 (分销商IDMR) & 0.9893 & 0.9972 & 0.8882 & 1.0000 & 0.9687 \\
+Exp_2 (多智能体+情绪+协同) & 0.9885 & 0.9979 & 0.9990 & 0.9969 & 0.9955 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section*{维度二: 行为经济学指标}
+
+\subsection*{表3. 损失厌恶程度量化 (Exp\_2 vs 理论最优)}
+
+\begin{table}[h]
+\centering
+\caption{损失厌恶程度: 实际订货量与理论最优订货量的偏差 (基于 Exp\_2 多智能体实验)}
+\label{tab:loss_aversion}
+\begin{tabular}{lccccc}
+\toprule
+节点 & 实际订货量 & 理论最优 & 平均绝对偏差 & 损失厌恶率 & 过度订货比例 \\
+& $\bar{q}_{actual}$ & $\bar{q}_{optimal}$ & MAE & MAE/$\bar{q}_{optimal}$ & $P(q>q^*)$ \\
+\midrule
+零售商 & 19.24 & 19.57 & 8.85 & 0.4522 & 0.4790 \\
+批发商 & 19.15 & 19.24 & 12.42 & 0.6457 & 0.3920 \\
+分销商 & 19.19 & 19.15 & 12.29 & 0.6417 & 0.2700 \\
+制造商 & 19.98 & 19.19 & 12.22 & 0.6366 & 0.2480 \\
+\midrule
+系统平均 & - & - & - & 0.5941 & 0.3473 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{说明:}
+\begin{itemize}
+    \item 损失厌恶率 = MAE / $\bar{q}_{optimal}$, 衡量实际决策偏离理性最优的程度
+    \item 过度订货比例 $P(q > q^*)$ 反映"因害怕缺货而过度订货"的倾向 (损失厌恶核心表现)
+    \item 理论最优 $\bar{q}_{optimal}$ 取该节点面临的下游需求均值 (AR(1) 需求下理性订至点策略订货量应趋近需求)
+\end{itemize}
+
+\section*{维度三: 系统鲁棒性指标}
+
+\subsection*{表4. 动态事件下的恢复时间 (Recovery Time)}
+
+\begin{table}[h]
+\centering
+\caption{系统在需求突变与供应中断事件下的恢复时间 (基于 Exp\_2)}
+\label{tab:recovery}
+\begin{tabular}{lcccc}
+\toprule
+事件类型 & 事件次数 & 平均恢复周期 & 标准差 & 最长恢复 \\
+\midrule
+需求突变 (Demand Shock) & 53 & 30.0 & 0.0 & 30 \\
+供应中断 (Supply Disruption) & 23 & 29.8 & 0.8 & 30 \\
+\midrule
+总体 & 76 & 29.9 & 0.5 & - \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{恢复判定标准:} 事件发生后, 系统连续 5 周期满足
+$|q_t - q_{baseline}| \leq 20\% \cdot |q_{baseline}|$ 视为恢复稳态,
+其中 $q_{baseline}$ 为事件前 50 周期的平均订货量.
+
+\section*{维度四: 情绪健康度指标}
+
+\subsection*{表5. 系统情绪状态分布 (基于 Exp\_2)}
+
+\begin{table}[h]
+\centering
+\caption{系统情绪状态时长占比 (基于 Exp\_2 多智能体实验)}
+\label{tab:emotion_health}
+\begin{tabular}{lc}
+\toprule
+情绪状态 & 占比 \\
+\midrule
+极端恐慌 (E<-0.5) & 72.89\% \\
+焦虑 (-0.5≤E<-0.1) & 9.32\% \\
+中性 (-0.1≤E≤0.1) & 4.01\% \\
+自信 (0.1<E≤0.5) & 6.38\% \\
+过度乐观 (E>0.5) & 7.40\% \\
+\midrule
+极端状态总占比 (恐慌+乐观) & 80.29\% \\
+情绪健康度 (100 - 极端占比) & 19.71 \\
+情绪波动度 (标准差) & 0.4866 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection*{表6. 各节点情绪健康度细分}
+
+\begin{table}[h]
+\centering
+\caption{各节点情绪状态分布与波动度}
+\label{tab:emotion_per_node}
+\begin{tabular}{lcccc}
+\toprule
+节点 & 极端恐慌占比 & 过度乐观占比 & 平均情绪 & 情绪波动度 \\
+\midrule
+零售商 & 40.20\% & 21.30\% & -0.1309 & 0.6020 \\
+批发商 & 81.65\% & 4.45\% & -0.6284 & 0.4147 \\
+分销商 & 88.75\% & 1.90\% & -0.7078 & 0.3015 \\
+制造商 & 80.95\% & 1.95\% & -0.6517 & 0.3261 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section*{综合结论}
+
+\begin{enumerate}
+    \item \textbf{传统指标}: Exp\_2 (多智能体+情绪+协同) 在分销商 BWE 上较 Baseline 降低
+          86.9\%,
+          制造商 BWE 降低
+          98.3\%.
+    \item \textbf{行为经济学}: 系统平均损失厌恶率为
+          0.5941,
+          过度订货比例 34.7\%,
+          表明情绪扰动确实导致决策偏离理性最优.
+    \item \textbf{鲁棒性}: 系统在 76 次动态事件下平均恢复时间为
+          29.9 周期,
+          多数事件达到观察窗口上限, 表明频繁的突发事件使系统难以完全回到稳态,
+          需进一步引入持续学习与情绪调节机制缩短恢复时间.
+    \item \textbf{情绪健康}: 系统情绪健康度为
+          19.71,
+          极端状态占比 80.29\%,
+          表明情绪模块整体处于可控范围但仍有优化空间.
+\end{enumerate}
+
+\end{document}

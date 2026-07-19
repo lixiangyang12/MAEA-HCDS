@@ -1,0 +1,870 @@
+总页数: 13
+
+===== 第 1 页 =====
+中国管理科学
+Chinese Journal of Management Science
+ISSN 1003-207X,CN 11-2835/G3
+《中国管理科学》网络首发论文
+题目： 缓解牛鞭效应的新途径：人机协同的智慧决策机器人
+作者： 李勇，陈元，于辉
+网络首发日期： 2022-09-13
+引用格式： 李勇，陈元，于辉．缓解牛鞭效应的新途径：人机协同的智慧决策机器人
+[J/OL]．中国管理科学.
+https://kns.cnki.net/kcms/detail/11.2835.G3.20220909.1743.006.html
+网络首发：在编辑部工作流程中，稿件从录用到出版要经历录用定稿、排版定稿、整期汇编定稿等阶
+段。录用定稿指内容已经确定，且通过同行评议、主编终审同意刊用的稿件。排版定稿指录用定稿按照期
+刊特定版式（包括网络呈现版式）排版后的稿件，可暂不确定出版年、卷、期和页码。整期汇编定稿指出
+版年、卷、期、页码均已确定的印刷或数字出版的整期汇编稿件。录用定稿网络首发稿件内容必须符合《出
+版管理条例》和《期刊出版管理规定》的有关规定；学术研究成果具有创新性、科学性和先进性，符合编
+辑部对刊文的录用要求，不存在学术不端行为及其他侵权行为；稿件内容应基本符合国家有关书刊编辑、
+出版的技术标准，正确使用和统一规范语言文字、符号、数字、外文字母、法定计量单位及地图标注等。
+为确保录用定稿网络首发的严肃性，录用定稿一经发布，不得修改论文题目、作者、机构名称和学术内容，
+只可基于编辑规范进行少量文字的修改。
+出版确认：纸质期刊编辑部通过与《中国学术期刊（光盘版）》电子杂志社有限公司签约，在《中国
+学术期刊（网络版）》出版传播平台上创办与纸质期刊内容一致的网络版，以单篇或整期出版形式，在印刷
+出版之前刊发论文的录用定稿、排版定稿、整期汇编定稿。因为《中国学术期刊（网络版）》是国家新闻出
+版广电总局批准的网络连续型出版物（ISSN 2096-4188，CN 11-6037/Z），所以签约期刊的网络版上网络首
+发论文视为正式出版。
+
+===== 第 2 页 =====
+缓解牛鞭效应的新途径：人机协同的智慧决策机器人
+李 勇，陈 元，于 辉
+(重庆大学 经济与工商管理学院, 重庆 400030)
+摘要: 牛鞭效应是指供应链上需求变异并逐级放大的现象，缓解牛鞭效应是供应链管理的核
+心任务之一。本文构建了由一个零售商、一个批发商、一个分销商和一个制造商组成的四级
+供应链，把人工智能中的深度强化学习技术引入到供应链管理之中，设计了人机协同的智慧
+决策机器人（核心算法），用于改善供应链中分销商决策。智慧实验结果表明：供应链上各
+个节点的“方差比、平均成本以及服务水平”等指标全面改进，牛鞭效应得到极大缓解。本
+文为研究供应链管理中的牛鞭效应提供了一种全新的视角与途径，赋予了供应链管理智慧决
+策的价值。
+关键词: 牛鞭效应；人机协同；智慧决策机器人；供应链管理
+有无信息共享策略下的牛鞭效应，发现共享
+1 引言
+信息的确可以缓解牛鞭效应，同时降低供应
+链成本。第二类是协调订货，Odonnell等[8]、
+牛鞭效应是指在供应链管理中，顾客需
+Badakhshan 等[9]引进遗传算法寻找供应链
+求信息向上游传递时，出现的需求信息波动
+成员之间最优的补货决策，通过实验证明在
+逐级放大的现象，即，节点订货量方差大于
+供应链中引用遗传算法可以缓解牛鞭效应，
+顾客需求量方差[1,2]。该现象最早由
+Tsay 和 Lovejoy[10]、Eppen 和 Iyer[11]通过模
+Forrester[3]发现，他通过仿真发现这是行业
+拟，证明数量柔性契约可以潜在抑制牛鞭效
+组织系统随时间动态变化的结果。后来
+应。第三类是库存管理，最常用的是供应商
+Sterman[4]设计了“Beer Distribution Game”，
+管理库存（Vendor Managed Inventory，VMI），
+通过模拟仿真分析并证实了牛鞭效应，进一
+Disney 和 Towill[12]比较了 VMI 供应链与传
+步认为牛鞭效应是人的系统性的非理性的
+统的“串联”供应链的预期绩效，发现在两级
+行为造成的。随后 Lee 等[1,2]借助数理模型
+供应链上，VMI供应链的牛鞭效应得到显著
+对两级供应链上的牛鞭效应进行了刻画，提
+降低。第四类是缩短提前期。陈佳莉和郭春
+出牛鞭效应主要来源于需求预测、批量订购、
+香[13]通过数学建模及仿真发现减少提前期
+短缺博弈以及价格波动，从而认为牛鞭效应
+可以缓解牛鞭效应，但是尤建新等[14]认为生
+是人在理性心理的驱使下选择最优决策后
+产提前期不是越短越好，而是存在一个最优
+相互影响的结果。牛鞭效应增加了上游节点
+值。此外，也有学者使用其他方法来缓解牛
+的库存成本以及缺货成本，运输提前期的存
+鞭效应，如唐亮和靖可[15]采用的
+在大幅度降低供应链节点企业的服务水平，
+极大削弱企业竞争力。如，2008年以后，李
+宁公司代理商对经营业绩盲目乐观，加上传
+统的服装产销模式，导致从零售商到制造商，
+损额达 20 亿。需求出现极大偏差，企业库
+存冗余增加，即，牛鞭效应产生，致使李宁
+公司因库存积压亏。
+基于牛鞭效应给供应链节点企业带来
+的问题，缓解牛鞭效应成为了供应链管理研
+究者的核心任务之一。目前的缓解途径主要
+有以下几类。第一类是信息共享。Cachon
+和Fisher[5]、Chen等[6]、Dejonckheere等[7]
+通过构建二级供应链甚至多级供应链，对比
+基金项目：国家自然科学基金面上资助项目
+（72172019，71872021），中央高校基
+本科研专项资金（2021CDJSKJC11）
+通讯作者简介：于辉（1973—），男（汉族），重
+庆人，博士，重庆大学经济与工商管理学院教授，
+博士生导师，研究方向：供应链管理，Email:
+yuhui@cqu.edu.cn.
+1
+H 
+网络首发时间：2022-09-13 09:54:30
+网络首发地址：https://kns.cnki.net/kcms/detail/11.2835.G3.20220909.1743.006.html
+鲁棒控
+制策略以及陈长彬等[16]提出的资产组合管
+理方法等。
+机器学习技术可以从以往大量数据中
+提取经验，进而处理非线性问题。
+Carbonneau 等[17]利用先进的机器学习技术，
+包括神经网络、递归神经网络和支持向量机，
+来预测供应链末端的扭曲需求，结果表明该
+类技术预测效果很好，但是预测精度不够。
+2006年，深度学习的浪潮开始兴起，Hinton
+和 Salakhutdinov[18]提出用自编码器降低数
+据的维度，并且可以采用预训练的方式来抑
+制梯度消失问题。在此基础上，Kong和Li[19]
+利用由多层受限玻尔兹曼机组成的深度信
+念网络建立了供应链柔性网络，提升了预测
+精度，更提高了供应链的灵活性。但是张荣
+等[20]认为深度学习在面临动态交互环境时
+表现出一定的决策劣势。Mnih 等[21,22]提出
+的深度强化学习网络（Deep Q-Network，
+DQN）可以解决动态交互决策问题，并在视
+频游戏和机器博弈领域表现出良好的性能。
+
+===== 第 3 页 =====
+基于这种优点，Oroojlooyjadid等[23]将DQN
+引入啤酒分销博弈，并证实 DQN 参与的供
+应链产生的成本与基本库存策略下的成本
+非常相似，并在一定程度上有所减小，但是
+他们没有研究牛鞭效应。在实践环节，Chien
+等[24]针对半导体供应链组件和模块领先的
+分销商，为应对工业3.5，设计了基于DQN
+的需求预测统一框架，以解决由于需求不对
+称导致的库存积压问题，实证结果表明该方
+法具有实际可行性，并且已嵌入公司的决策
+支持系统。
+因此，针对上述已有缓解牛鞭效应的方
+法，本文基于经典文献[1,2,6]对牛鞭效应的
+研究，提出了一种新的缓解牛鞭效应的途径，
+即基于深度强化学习的人机协同的智慧决
+策机器人(Intelligent decision-making robot,
+IDMR)。智慧实验将 IDMR 整合进供应链，
+用以改善分销商决策，决策“老师”将自己的
+理性决策经验教授给IDMR，并在IDMR决
+策制定过程中限制决策范围，当IDMR决策
+影响理论最优库存时，决策“老师”施加严厉
+的惩罚，禁止IDMR向上游订货，以协调整
+条供应链的服务水平以及成本，最终实现极
+大地缓解牛鞭效应的目标。
+本文着重研究 IDMR 参与下的供应链
+上的牛鞭效应新现象。智慧实验结果表明，
+这种人机协同的智慧决策方法可以有效减
+少订货量方差与顾客需求量方差之比，在减
+小整条供应链总成本的同时，极大降低供应
+链上游成本，提升供应链节点的服务水平，
+发挥了缓解牛鞭效应的巨大作用。因此，本
+文为研究供应链管理中的牛鞭效应提供了
+一种全新的视角与途径，这给供应链管理者
+在供应链上游布局新模式以新的启示。
+2 经典供应链订货决策
+为了让智慧决策机器人能够学到人类
+理论最优的决策，更好的适应决策环境，并
+最终做出最优决策，本文采用Chen[6]刻画的
+牛鞭效应模型，供应链条按照 Sterman[4]设
+计的经典啤酒游戏模式运行。
+2.1 经典供应链模型
+图1为零售商、批发商、分销商、制造
+商组成的经典多级供应链模型。
+2
+制 造 商 分 销
+供 应
+商 批 发 商
+需 求
+零 售 商 顾 客
+图1 经典多级供应链模型
+定 义 每 个 供 应 链 节 点 为 节 点
+k  k  1 , 2 , 3 , 4  ，假设在每个周期 t 都发生
+如下事件：第一步，节点 k 收到下游节点
+k  1 的订单 q kt  1  k  2  ，观察自身库存水平，
+并向上游节点 k  1 按照理性决策原则补货；
+第二步，节点k收到上游节点k 1发出的 L
+运输周期前的货物；第三步，节点 k 满足下
+游节点k 1的订单 q kt  1 ，并更新自身库存和
+缺货。
+2.2 理性决策
+供应链上每个节点所作决策都是理性
+决策，均按照如下零售商的订货步骤依次向
+上游订货。零售商首先根据最近 p 个周期的
+需求对当期顾客需求 D
+t
+进行简单移动平均
+(Simple Moving Average, SMA)预测，得到L
+提前期内的预测需求DˆL以及预测误差
+t
+ˆ Let  ，
+然后根据订至点库存策略(Order-Up-To,
+OUT)计算期望库存S ，最后做出补货决策
+t
+q
+t
+。该理性决策以最大化服务水平(Service
+Level，SL)为目标。零售商所观察到的周期
+t 的需求遵循如下随机过程
+D
+t
+d D
+t 1 t
+   
+
+ (1)
+其中， d 是非负常量，  1     是相关系数，
+t
+是误差项，服从独立同正态分布。期望库
+存 S
+t
+的具体表达式如下：
+S
+t
+ˆD Lt z ˆ Let    (2)
+其中，z表示安全库存系数。SMA预
+测过程如下(3)式所示：
+ˆD Lt L
+p
+i 1
+D
+p
+t i
+, Let C
+L ,
+p
+i 1
+ e
+p
+t i
+ 2
+
+
+
+
+
+
+
+
+
+
+
+
+(3)
+其中，e 表示一个周期的预测误差，即
+t
+e
+t
+ D
+t
+ ˆD 1t ， C
+L ,
+表示
+
+L 、和 p 的常数。
+订货策略如下：
+q S IP
+t t t
+(4)
+= S NS +WIP
+t t t
+其中 I P
+t
+表示现有库存，NS 表示净库存，
+t
+WIP 表示在途库存。
+t
+牛鞭效应量化方式如下(5)式所示。
+varq 
+BWE t (5)
+varD 
+t
+其中，varq 表示零售商周期t时的订货量
+t
+方差，varD 表示周期t时的顾客需求量方
+t
+差。
+2.3 牛鞭效应
+
+===== 第 4 页 =====
+基于Chen[6]的理性决策和Sterman[4]设 及服务水平分别呈现如下图2、图3以及图
+计的啤酒游戏模式，本文复盘了动态的牛鞭 4的特征。
+效应现象。供应链上的方差比、平均成本以
+1) 方差比
+表1 理性决策下的牛鞭效应(保留小数点后2位)
+节点 需求(均值) 订单(均值) 方差比
+零售商 19.48 19.48 5.42
+批发商 19.48 19.49 27.19
+分销商 19.49 19.53 110.33
+制造商 19.53 19.66 359.44
+注：0.5, C 2, d 10, ~N0,5, z2, L2, p5，订货运行周期为20000，
+L,
+各个节点初始库存均为10。
+图3表示在理性决策下，随着订货周
+期的增加，供应链各个节点从订货开始到
+当前订货周期的累计成本的平均成本。如
+上图3所示，从零售商到制造商，各个节
+点的平均成本在订货初期呈现出激增的
+现象并且逐级增加，到订货后期，平均成
+本逐渐缓和，最后趋于平稳，其中，制造
+商20000个周期的平均成本大约是零售商
+的39倍。
+3) 服务水平
+图2 理性决策下的方差比
+基于理性决策[6]，本文采用有货率来衡
+量服务水平，即所有订货次数中有货的比例，
+如表 1 所示，在理性决策下，经过
+即
+20000个周期的连续动态订货与发货，供
+应链上各个节点都表现出订单均值与需
+求均值近似相等的特征，该现象与文献
+[17]的结论相一致。但是如图 2 所示，在
+动态订货、发货的场景下，从零售商到制
+造商，各个节点订货量的方差与顾客需求
+量的方差之比在订货初期呈现出逐级放
+大并且激增的现象，后期逐渐平稳，但是
+逐级放大的现象依旧存在，这说明在经典
+多级供应链模型下，随着订货周期的增加，
+供应链上的牛鞭效应有所缓和但仍然较
+为严重。
+2) 平均成本
+图3 理性决策下的平均成本
+3
+S L  1 -
+缺
+订
+货
+货
+次
+次
+数
+数
+(6)
+并且服务水平与安全库存系数存在如下关
+系：
+S L  z    (7)
+图4 理性决策下的服务水平
+在理性决策下，供应链上各个节点以
+满足97.7%z2的服务水平为目标。从
+理论上看，各个节点都可以达到97.7%的
+服务水平。但是从实验结果来看，如上图
+4所示，虽然在订货后期，服务水平逐渐
+稳定在一个较高的值，但是除了制造商，
+
+===== 第 5 页 =====
+其他节点均无法达到 97.7%的服务水平，
+其中零售商的服务水平最低，只达到了
+87.5%左右。
+3 智慧决策机器人设计
+虽然外部市场需求相对稳定，但是在经
+典多级供应链模型下，各级节点根据直接下
+游的需求向上游订货，在理性决策下会产生
+巨大的牛鞭效应。由于 DQN[21,22]本身能够
+适应动态变化的环境，并在供应链决策上体
+现出较高的优越性[23]，所以本文基于 DQN
+设计了人机协同的智慧决策机器人，并将智
+慧决策机器人整合进供应链，用以改善分销
+商决策。它的作用机理是基于Agent与环境
+进行交互，然后从环境中获得奖赏并反馈给
+动作，包含4个基本要素，即策略、奖惩反
+馈、值函数和环境，以及一个主要要素，即
+人类订货的最优决策经验----理性决策“老
+师”。决策“老师”将自己的决策经验教授给
+智慧决策机器人，并且在发现智慧决策机器
+人决策失误时及时给以干扰，即人类决策充
+当“教师”角色，智慧决策机器人扮演“学生”
+的角色，“教师”在“学生”犯错误时及时对“学
+生”的行为进行批评指正，即人机协同机制：
+传授经验、限制决策、惩罚机制，大致流程
+如图5所示。
+4
+制 造 商 智
+理
+慧（
+性 决 策 者
+经 验
+决 策 机 器 人 ） IDM R
+供 应
+分 销 商
+批 发 商
+需
+零
+求
+售 商 顾 客
+图5 智慧多级供应链模型
+3.1 环境适应
+在智慧多级供应链中，智慧决策机器人
+所在节点是 k  3 ，于周期 t 接收批发商订单
+q 2t ，并观察当期库存S3、在途库存WIP3和
+t t
+上期运输货物Trans3 ，通过观察并适应环
+t1
+境，以及在决策“老师”指导下做出回报最大
+的决策，然后向制造商订货，同时满足批发
+商当期需求。
+当订货次数超过200时，智慧决策机器
+人使用值网络逼近值函数，值函数的参数化
+表现形式为 Q  s , a ;
+i
+  ，其中表示值网络
+i
+第 i
+现，
+次迭代的参数，每次迭代按照如下(8)式
+的目标进行，即
+y    rmax a' Qˆ s t1 ,a'; i  ,如果一轮订货完成 (8)
+r ,其他
+其中0,1是折扣因子，即后期收益的折
+a ' 表示 s
+t 1
+状态下所有可能的决策值，
+i
+  表示目标网络第 i 次迭代的参数， r 表示
+回报。每次值网络训练时，都会按照如下(9)
+式的损失函数进行参数的第i次更新，即
+f
+i
+
+i
+ E
+s ,a t ,r,st 1
+ y Q  s
+t
+, a ;
+i
+  2   
+
+   (9)
+目标网路不进行训练，每隔 N 步，目标
+网络的参数使用值网络的参数进行
+i i
+更新。
+3.2 人机协同
+智慧决策机器人以理论最优决策经验
+为指导，并在决策出现极大偏离时由决策
+“老师”施加大强度的干扰，从而做出使得供
+应链整体服务水平最大的决策，同时使得自
+身各方面水平得到极大的改善。智慧决策机
+器人与供应链各个节点的协同措施包括传
+授经验、限制决策及惩罚机制，具体流程如
+下图6所示。
+图6 智慧决策机器人设计流程图
+1) 传授经验。分销商在周期t接收下游
+订单，同时做出两种决策，一种是理性决策
+如(4)式，一种是智慧决策机器人所做的智慧
+决策。决策“老师”将理论最优决策教授给智
+慧决策机器人，智慧决策机器人将这个经验
+融入自身的学习环境，做出回报最大的决策。
+2) 限制决策。智慧决策机器人一边学
+习人类理论最优决策，一边观察自身所处的
+决策环境，以1的概率选择Q值最大的
+行动作为决策值，以的概率随机探索
+ 1 1 , 4 0  范围内的值作为决策值。
+argmax Qs,a;, 1-
+a  a t (10)
+t  random a11, 40, 
+其中，表示探索概率。如果做出决策 a
+t
+后，
+分销商的货物能够满足顾客需求，则回报 rt
+增加，其中
+完全满足顾客需求次数
+r  (11)
+t 订货次数
+3) 惩罚机制。训练前期，在智慧决策
+机器人根据当前环境进行决策值随机探索
+
+===== 第 6 页 =====
+时，会出现决策严重超出理论最优的情形， 策“老师”观察到智慧决策机器人的积压库
+即，即使有决策“老师”的实时指导，智慧决 存达到相同需求下经典多级供应链对应节
+策机器人也无法学到最优决策。在下游订货 点的平均库存时，决策“老师”就会给智慧决
+不多的情况下，智慧决策机器人过多的向上 策机器人施加严厉的惩罚，禁止其向上游订
+游订货会出现极大的库存积压，因此，当决 货。
+3.3 核心算法
+表2 核心算法
+核心算法：牛鞭效应智慧决策机器人设计
+1 初始化牛鞭效应环境与智慧决策机器人基础设置
+2 For t 1:T do
+3 随机生成顾客需求D ，D ~N  ,2
+t t
+4 For
+5
+k  1 : 4 do
+5 经典多级供应链理性决策者制定决策 q kt ——人类专家理论最优决策
+6 # 人机协同机制1：传授经验
+7 智慧决策机器人观察 s
+t
+  S k  3
+t 1
+,W I P kt 1 3 , q k  2
+t 1
+, T r a n s k  3
+t 2
+, q k  3
+t 1
+
+8 # 人机协同机制2：限制决策
+智慧决策机器人以的概率在理论最优决策经验范围内随机做决策
+9
+a
+t
+，否
+则就以 1   的概率做决策a argmax Qs,a;
+t a t
+10 # 人机协同机制3：惩罚机制
+智慧供应链上智慧决策机器人的库存大于经典多级供应链对应节点平均
+11
+库存，决策“老师”禁止智慧决策机器人向上游订货，即a 0
+t
+12 智慧决策机器人获得当期收益 rt
+13 智慧决策机器人观察s   Sk3,WIPk3,qk2,Transk3,qk3
+t1 t t t t1 t
+14 将智慧决策机器人的所有信息  s
+t
+, a
+t
+, rt , s
+t 1
+ 存储至经验池E
+15 从经验池 E 随机抽取小批量经验 s ,a ,r ,s 
+j j j j1
+计算
+16
+y
+i
+r
+j
+m a x'
+a
+Q  s
+j 1
+, a ';
+i
+    
+
+ ，对  y
+i
+Q  s
+j
+, a ;j   2   随机梯度下降来更
+新值网络的权重
+17 End for
+18 每隔N步，更新目标网络的权重 
+19 End for
+4 智慧实验
+4.1 实验基础设置
+智慧实验将智慧决策机器人接入供应
+链改善分销商决策，供应链中的其他节点依
+次按照理性决策[6]向上游下订单，从方差比、
+平均成本和服务水平这三个方面进行比较，
+分析有智慧决策机器人参与下的牛鞭效应
+新现象。
+为便于比较，智慧实验对顾客需求相关
+参数的假定与复盘时相同，即
+~
+0
+N
+.5
+
+,
+0
+C
+, 5
+L
+
+,
+, z
+2 ,
+2
+d
+, L
+1 0
+2
+,
+, p 5
+
+
+
+ 
+
+
+ 
+(12)
+注：每次实验进行20000个周期。
+4.2 实验结果与分析
+
+===== 第 7 页 =====
+图7 IDMR训练曲线 值。如上图7所示，在训练后期，智慧决策
+机器人的训练曲线逐渐在小范围内上下波
+图7表示在智慧多级供应链的动态订货
+动，表明IDMR已经能够做出稳定的使得回
+发货场景下，智慧决策机器人的一系列状态
+报最大的决策。
+的平均预测行动值，图7上的每一个点都表
+示在一组状态上计算出的动作 Q 值的平均
+（a） 经典决策下行为分布 （b） 智慧决策下行为分布
+（c）两种决策下行为对比
+图8 两种环境下的决策行为对比
+IDMR 在理性决策[6]指导下，经过反复 在需求均值与订单均值近似一致的情况下，
+训练，决策行为呈现如上图 8 所示的特征。 这种由需求信息不对称带来的订货量的方
+如图(c)所示，在面临下游需求信息不稳定的 差与需求量的方差之比有所减小，特别是分
+情况下，理性决策者所体现出来的决策行为 销商与制造商，但是批发商的方差比也有一
+呈现出相对不稳定的特征，且波动范围较大， 定程度的减小，详见图9。同时如图9所示，
+但是 IDMR 的决策行为只是在一定决策范 随着顾客需求信息的逐级传递，供应链节点
+围内来回波动，较稳定。从图(b)来看，智慧 根据不对称的需求信息做出补货决策，智慧
+决策下分销商的行为集中分布在 30 左右， 决策机器人通过观察当前状态做出最优决
+偶尔会出现决策为0的情况，并且在分销商 策，导致整个供应链的订货量与需求量的方
+稳定的行为影响下，上游制造商的行为也很 差比大小顺序发生了一定程度的变化，最大
+稳定。但是在理性决策下，如图(a)所示，分 的节点由原来的制造商变成了批发商，但是
+销商的决策行为波动很大，会出现一段时间 从零售商到分销商再到制造商，理性决策下
+订货，一段时间不订货的情况，导致上游制 的大小顺序依旧存在。
+造商的生产决策行为相对不稳定。
+4.2.1 方差比比较
+在理性决策下，供应链上各个节点的订
+货量的方差与需求量的方差之比会出现图2
+中的情况，随着供应链层级的增加，这种由
+需求信息不对称带来的方差比越来越大，具
+体数据如表3理性决策一栏所示。反观，当
+智慧决策机器人接入供应链用以改善分销
+商的决策时，如表 3 中智慧决策一栏所示， 图9 智慧决策下的方差比
+6
+
+===== 第 8 页 =====
+表3 两种决策下牛鞭效应对比(保留小数点后2位)
+决策 理性决策 智慧决策
+节点 需求(均值) 订单(均值) 方差比 需求(均值) 订单(均值) 方差比
+零售商 19.48 19.48 5.42 19.48 19.48 5.46
+批发商 19.48 19.49 27.19 19.48 19.49 22.91
+分销商 19.49 19.53 110.33 19.49 19.51 8.70
+制造商 19.53 19.66 359.44 19.51 19.51 14.53
+4.2.2 平均成本比较
+图10 智慧决策下的平均成本
+在成本由库存成本和缺货成本这两者
+构成时，如图3所示，在理性决策下，随着
+供应链层级的增加，零售商到制造商的平均
+成本逐级增加，并且相邻两级之间平均成本
+的差距越来越大。但是在智慧决策下，如上
+图 10 所示，当智慧决策机器人接入供应链
+后，供应链的整体成本得到明显减小，其中
+批发商的成本得到细微减小，而从分销商和
+制造商的成本可以看出，智慧决策可以有效
+减小供应链上游成本，其中，对制造商成本
+的减小作用尤为显著。
+4.2.3 服务水平比较
+图11 智慧决策下供应链各级服务水平
+图11表示当
+7
+z  2
+的存在，供应链上除了制造商之外，各级都
+不能达到97.7%的服务水平。相反，如上图
+11所示，当智慧决策机器人接入供应链用以
+改善分销商决策时，上游节点的服务水平都
+有所提高，尤其是分销商，相比于传统决策
+下的服务水平，分销商的 SL 提高了接近
+4.2%，实际服务水平接近100%。
+5 结束语
+本文研究并设计了智慧决策机器人，将
+智慧决策机器人接入四级供应链改善分销
+商决策，通过比较理性决策与智慧决策在方
+差比、平均成本以及服务水平等三个方面的
+差异，发现了缓解牛鞭效应的新途径。主要
+结论如下：
+1) 牛鞭效应得到极大缓解。在理性决
+策下，经典多级供应链模型下的牛鞭效应顺
+序依次是零售商、批发商、分销商和制造商，
+但是智慧决策机器人所参与的智慧多级供
+应链模型下的牛鞭效应顺序依次是零售商、
+分销商、制造商和批发商，但是从数值上看，
+相对于理性决策，批发商在智慧决策下的方
+差比更小。
+2) 牛鞭效应所对应的各项指标全面改
+进。在理性决策下，按照经典供应链模型顺
+序，从零售商到制造商，各节点成本和服务
+水平都呈逐级上升的态势。但是在智慧决策
+下，制造商成本最低，分销商的服务水平最
+高，其他各节点成本和服务水平保持原有顺
+序不变。
+3) 供应链各个节点的相互关系发生较
+大改变。在经典多级供应链模型下，各个节
+点相互依存相互协调，任何节点决策制定都
+离不开当前已知的所有条件，要达到缓解牛
+鞭效应的目的，最重要的手段就是信息共享。
+但是在智慧决策供应链模型下，智慧决策机
+时，智慧决策机器人 器人可以在不接收顾客需求信息情况下达
+代替分销商做决策时，各级的实际服务水平。 到缓解牛鞭效应的目的，各节点之间的相互
+如图4所示，在理性决策下，即使理论目标 依赖关系得到极大的减弱。
+服务水平是97.7%，实际上由于运输提前期 尽管本文设计的智慧决策机器人有效
+
+===== 第 9 页 =====
+缓解了简单四级供应链下的牛鞭效应，特别 199-215.
+是改善了分销商和制造商的库存，但是本研 [13] 陈佳莉, 郭春香. 基于卡尔曼滤波需求预测的
+牛鞭效应研究 [J]. 管理学报, 2019, 16(05):
+究还存在如下几点问题。首先，市场环境下
+775-782.
+的供应链十分复杂，在这种复杂的环境下， Chen Jiali, Guo Chunxiang. Research on
+智慧决策机器人是否依然能在决策“老师” Bullwhip Effect Based on Demand Forecast
+with Kalman Filter[J]. Chinese Journal of
+的指导下表现出稳定的行为特征。其次，当
+Management, 2019, 16(05): 775-782.
+一条供应链中存在多个智慧决策机器人时，
+[14] 尤建新, 隋明刚, 霍佳震. 闭环供应链牛鞭效
+节点之间是否能够有效协调，并做出提高整 应分析 [J]. 系统工程理论与实践, 2007(12):
+个供应链收益的决策。因此，智慧决策机器 111-116.
+You Jianxin, Sui Minggang, Huo Jiazhen.
+人是否能够适应复杂的环境以及协调好多
+Bullwhip Effect in Closed-Loop Supply
+个机器人参与下的供应链，这都是有待深究
+Chain[J]. Systems Engineering-Theory &
+的问题。 Practice, 2007(12): 111-116.
+[15] 唐亮, 靖可. H∞鲁棒控制下动态供应链系统牛
+参考文献 鞭效应优化 [J]. 系统工程理论与实践, 2012,
+32(1): 155-155.
+[1] Lee H L, Padmanabhan V, Whang S, et al. Tang Liang, Jing Ke. Bullwhip effect
+Information distortion in a supply chain: the optimization of dynamic supply chain system
+bullwhip effect[J]. Management Science, 1997, based on H∞ robust control[J]. Systems
+43(4): 546-558. Engineering — Theory & Practice, 2012, 32(1):
+[2] Lee H L, Padmanabhan V, Whang S, et al. The 155-155.
+Bullwhip Effect in Supply Chains[J]. Sloan [16] 陈长彬, 盛鑫, 梁永奕. 一种减少供应链牛鞭
+Management Review, 1997, 38(3): 93-102. 效应的资产组合管理方法 [J]. 管理科学学报,
+[3] Forrester J W. Industrial Dynamics[M]. 2016, 19(06): 33-48.
+Cambridge Mass: MIT Press, 1961. Chen Changbin, Sheng Xin, Liang Yongyi.
+[4] Sterman J D. Modeling managerial behavior: Reducing bullwhip effect in supply chain: A
+Misperceptions of feedback in a dynamic portfolio management approach[J]. Journal of
+decision making experiment[J]. Management Management Sciences in China, 2016, 19(06):
+Science, 1989, 35(3): 321-339. 33-48.
+[5] Cachon G P, Fisher M. Supply chain inventory [17] Carbonneau R, Laframboise K, Vahidov R.
+management and the value of shared Application of machine learning techniques for
+information[J]. Management Science, 2000, supply chain demand forecasting[J]. European
+46(8): 1032-1048. Journal of Operational Research, 2008, 184(3):
+[6] Chen F, Drezner Z, Ryan J K, et al. Quantifying 1140-1154.
+the bullwhip effect in a simple supply chain: The [18] Hinton G E, Salakhutdinov R R. Reducing the
+impact of forecasting, lead times, and dimensionality of data with neural networks[J].
+information[J]. Management Science, 2000, science, 2006, 313(5786): 504-507.
+46(3): 436-443. [19] Kong F, Li J. The promotion strategy of supply
+[7] Dejonckheere J, Disney S M, Lambrecht M, et al. chain flexibility based on deep belief network[J].
+The impact of information enrichment on the Applied Intelligence, 2018, 48(5): 1394-1405.
+Bullwhip effect in supply chains: A control [20] 张荣,李伟平,莫同. 深度学习研究综述 [J]. 信
+engineering perspective[J]. European Journal of 息与控制,2018,47(04):385-397+410.
+Operational Research, 2004, 153(3): 727-750. Zhang Rong,Li Weiping,Mo Tong. Review of
+[8] Odonnell T, Maguire L, Mcivor R, et al. Deep Learning[J]. Information and Control,
+Minimizing the bullwhip effect in a supply chain 2018,47(04):385-397+410.
+using genetic algorithms[J]. International Journal [21] Mnih V, Kavukcuoglu K, Silver D, et al. Playing
+of Production Research, 2006, 44(8): 1523-1543. atari with deep reinforcement learning[J]. arXiv
+[9] Badakhshan E, Humphreys P, Maguire L, et al. preprint arXiv: 1312.5602, 2013.
+Using simulation-based system dynamics and [22] Mnih V, Kavukcuoglu K, Silver D, et al.
+genetic algorithms to reduce the cash flow Human-level control through deep reinforcement
+bullwhip in the supply chain[J]. International learning[J]. Nature, 2015, 518(7540): 529-533.
+Journal of Production Research, 2020: 1-27. [23] Oroojlooyjadid A, Nazari M R, Snyder L, et al. A
+[10] Tsay A A, Lovejoy W S. Quantity flexibility
+Deep Q-Network for the Beer Game: A Deep
+contracts and supply chain performance[J].
+Reinforcement Learning algorithm to Solve
+Manufacturing & Service Operations
+Inventory Optimization Problems[J]. arXiv
+Management, 1999, 1(2): 89-111.
+preprint arXiv: 1708.05924, 2017.
+[11] Eppen G D, Iyer A V. Backup agreements in
+[24] Chien C F, Lin Y S, Lin S K. Deep reinforcement
+fashion buying—the value of upstream
+learning for selecting demand forecast models to
+flexibility[J]. Management Science, 1997, 43(11):
+empower Industry 3.5 and an empirical study for
+1469-1484.
+a semiconductor component distributor[J].
+[12] Disney S M, Towill D R. The effect of vendor
+International Journal of Production Research,
+managed inventory (VMI) dynamics on the
+2020, 58(9): 2784-2804.
+Bullwhip Effect in supply chains[J]. International
+Journal of Production Economics, 2003, 85(2):
+8
+
+===== 第 10 页 =====
+A new way to alleviate bullwhip effect: An intelligent decision-making robot based
+on man-robot cooperation
+LI Yong, CHEN Yuan, YU Hui
+(School of Economics and Business Administration, Chongqing University, Chongqing 400030, China)
+Abstract: Bullwhip effect refers to the phenomenon of demand variation and gradual
+amplification in the supply chain, which will bring high costs to supply chain enterprises.
+Therefore, alleviating the bullwhip effect has always been one of the core tasks of supply chain
+management, but the existing methods still cannot completely eliminate bullwhip effect.
+Introducing artificial intelligence methods into the supply chain to create a smart supply chain is
+one of the main methods for supply chain management in the information age, and it is also the
+main source of ideas to study the bullwhip effect. To explore new ways to alleviate the bullwhip
+effect, this paper constructs a four-level supply chain consisting of a retailer, a wholesaler, a
+distributor and a manufacturer, introduces the deep reinforcement learning technology in artificial
+intelligence into supply chain management, and designs a human-machine collaborative intelligent
+decision-making robot, used to improve the decision-making of distributors in the supply chain.
+The results of the smart experiment show that the indicators such as "variance ratio, average cost
+and service level" of each node in the supply chain have been comprehensively improved, which
+means that the bullwhip effect has been greatly alleviated. This paper provides a new perspective
+and approach for studying the bullwhip effect in supply chain management, and endows supply
+chain management with the value of intelligent decision-making.
+Keywords: bullwhip effect；human-machine collaborative; intelligent decision-making robot;
+supply chain management
+实验参数设置
+附录
+IDMR的各参数设置如表1所示。
+表1 IDMR基本参数设置
+超参数 值 释义
+minibatch size 32 计算每个随机梯度下降（SGD）更新的训练案例数
+replay memory size 20000 SGD更新是从最近的20000个样本中取样
+当样本池大小大于 100 时，IDMR 开始训练，训练结果
+replay start size 100
+用来填充记忆回放
+initial exploration 1 在
+9
+g r e e d y   探索中的初始值
+final exploration 0.01 在 g r e e d y   探索中的最终值
+learning rate 1e - 4 Adam优化器使用的学习率
+discount factor 0.9 在Q-learning中使用的折扣系数
+target network upd-ate 当样本池大小大于 400 时，开始有间隔的更新目标网络
+400
+start size 参数
+target network update
+10 每隔10步将值网络的参数更新到目标网络的参数
+frequency
+
+iteration 20000 一个回合进行20000个周期(week)
+state space 5 供值网络训练的IDMR的一个经验的长度
+action space 40 IDMR探索时的决策探索范围
+activation function relu 将数据进行非线性处理，提高数据训练模型的拟合度
+理性决策下的需求与订单
+
+===== 第 11 页 =====
+（a） 需求 （b）订单
+图1 理性决策下各节点的需求与订单
+如上图1所示，在理性决策下，当顾客 过20000个周期的连续订货与发货，各个节
+需求以稳定的随机信号输入且为线性时，经 点的需求均值与订单均值近似相等。
+智慧决策下的需求与订单
+（a） 需求 （b）订单
+图2 智慧决策下各节点的需求与订单
+如上图2所示，在智慧决策下，当智慧 成本构成
+多级供应链上的顾客需求假定与经典多级 供应链各节点总成本构成及各决策方
+供应链下的相同时，各个节点的需求均值与 式下成本对比如图3和图4所示，包含库存
+订单均值近似相等。 成本和缺货成本。
+（a） 理性决策 （b） 智慧决策
+图3 库存成本
+如图(a)所示，在经典多级供应链上，随 着顾客需求的逐级传递，各级库存逐级增加，
+10
+
+===== 第 12 页 =====
+在制造商处达到最大，其库存量是零售商的 量的传递出现了变化，制造商的库存量比分
+42倍。但是，当智慧决策机器人接入经典供 销商小，居供应链库存排名第三位。
+应链改善分销商决策时，如图(b)所示，库存
+（a） 理性决策 （b） 智慧决策
+图4 缺货成本
+如图(a)所示，在经典多级供应链上，随 图(b)所示，缺货量的传递出现了变化，制造
+着顾客需求的逐级传递，各级缺货逐级增加， 商的缺货量达到最小，20000个周期的平均
+在制造商处达到最大。但是，当智慧决策机 缺货量约为0.22，分销商的缺货量达到最大。
+器人接入传统供应链改善分销商决策时，如
+在途库存
+（a） 理性决策 （b） 智慧决策
+图5 在途库存
+各节点在途库存如图5所示，在经典多 途库存趋于相同，在一定程度上都可以保证
+级供应链下和智慧多级供应链下，各级的在 下游的供应。
+同一维度方差
+维度指的是每500个周期计算一次方差。
+11
+
+===== 第 13 页 =====
+（a） 理性决策 （b） 智慧决策
+图6 同一维度方差
+各节点同一维度方差如图6所示，在经 方差的大小顺序依次是零售商、分销商、制
+典多级供应链下，如图(a)所示，决策方差呈 造商和批发商。而且，在智慧多级供应链下，
+现逐级递增的现象，但是在智慧多级供应链 除零售商，其他节点的方差都比经典多级供
+下，如图(b)所示，这种现象不再存在，决策 应链小。
+12

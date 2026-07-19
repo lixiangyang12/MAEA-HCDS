@@ -1,0 +1,63 @@
+{
+  "experiment": "Exp_1b",
+  "pearson_emotion_order": {
+    "r": -0.11560963156301393,
+    "p_value": 1.800094467554797e-60
+  },
+  "group_stats": {
+    "恐慌": {
+      "count": 19180,
+      "ratio": 0.959,
+      "mean_order": 20.225234619395202,
+      "std_order": 18.799317464875216,
+      "mean_demand": 20.375774152168866,
+      "overorder_ratio": 0.5235662148070908
+    },
+    "焦虑": {
+      "count": 557,
+      "ratio": 0.02785,
+      "mean_order": 4.615798922800718,
+      "std_order": 12.46436795537154,
+      "mean_demand": 0.48329361975847884,
+      "overorder_ratio": 0.12208258527827648
+    },
+    "中性": {
+      "count": 137,
+      "ratio": 0.00685,
+      "mean_order": 6.021897810218978,
+      "std_order": 13.842422445946339,
+      "mean_demand": 2.6324592849309165,
+      "overorder_ratio": 0.16058394160583941
+    },
+    "自信": {
+      "count": 53,
+      "ratio": 0.00265,
+      "mean_order": 36.54716981132076,
+      "std_order": 6.64338524110488,
+      "mean_demand": 36.572422786327465,
+      "overorder_ratio": 0.7547169811320755
+    },
+    "乐观": {
+      "count": 73,
+      "ratio": 0.00365,
+      "mean_order": 36.013698630136986,
+      "std_order": 7.562512358300657,
+      "mean_demand": 36.09371558588967,
+      "overorder_ratio": 0.7671232876712328
+    }
+  },
+  "emotion_distribution": {
+    "panic_ratio": 0.959,
+    "anxiety_ratio": 0.02785,
+    "neutral_ratio": 0.00685,
+    "confident_ratio": 0.00265,
+    "optimistic_ratio": 0.00365
+  },
+  "summary": {
+    "emotion_mean": -0.7780813180838269,
+    "emotion_std": 0.174759807522912,
+    "order_mean": 19.7941,
+    "order_std": 18.827825291041982,
+    "overorder_ratio": 0.517
+  }
+}

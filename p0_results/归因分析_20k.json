@@ -1,0 +1,128 @@
+{
+  "emotion_decision_correlation": {
+    "1": {
+      "node": "零售商",
+      "pearson_emotion_order": 0.25213940355252923,
+      "p_value_order": 1.2922582141678306e-287,
+      "pearson_emotion_excess": 0.1602739548028513,
+      "p_value_excess": 3.457259619618314e-115,
+      "panic_count": 8501,
+      "neutral_count": 1806,
+      "optimistic_count": 6409,
+      "panic_mean_order": 16.07693212563228,
+      "neutral_mean_order": 23.302325581395348,
+      "optimistic_mean_order": 21.880948665938526,
+      "panic_std_order": 12.743511794574838,
+      "neutral_std_order": 9.95346120404899,
+      "optimistic_std_order": 9.268756113223988
+    },
+    "2": {
+      "node": "批发商",
+      "pearson_emotion_order": 0.3722320136060809,
+      "p_value_order": 0.0,
+      "pearson_emotion_excess": 0.3354197005047379,
+      "p_value_excess": 0.0,
+      "panic_count": 17503,
+      "neutral_count": 476,
+      "optimistic_count": 1068,
+      "panic_mean_order": 17.627263897617553,
+      "neutral_mean_order": 34.294117647058826,
+      "optimistic_mean_order": 34.38576779026217,
+      "panic_std_order": 16.702015956433915,
+      "neutral_std_order": 9.498432370594855,
+      "optimistic_std_order": 9.101233796592414
+    },
+    "3": {
+      "node": "分销商",
+      "pearson_emotion_order": 0.10408026396517182,
+      "p_value_order": 2.7186063226751643e-49,
+      "pearson_emotion_excess": 0.10547485342342731,
+      "p_value_excess": 1.3978477226658214e-50,
+      "panic_count": 18996,
+      "neutral_count": 172,
+      "optimistic_count": 372,
+      "panic_mean_order": 19.398768161718255,
+      "neutral_mean_order": 27.03488372093023,
+      "optimistic_mean_order": 33.54838709677419,
+      "panic_std_order": 18.53655669340875,
+      "neutral_std_order": 17.662170633818118,
+      "optimistic_std_order": 10.73659817676418
+    },
+    "4": {
+      "node": "制造商",
+      "pearson_emotion_order": -0.21295070091491383,
+      "p_value_order": 7.829319999363636e-204,
+      "pearson_emotion_excess": -0.19146718342646973,
+      "p_value_excess": 1.915869322549277e-164,
+      "panic_count": 18622,
+      "neutral_count": 339,
+      "optimistic_count": 139,
+      "panic_mean_order": 20.738588765975727,
+      "neutral_mean_order": 8.050147492625369,
+      "optimistic_mean_order": 33.44604316546763,
+      "panic_std_order": 18.706107397992245,
+      "neutral_std_order": 15.311336102789404,
+      "optimistic_std_order": 12.006696370140933
+    }
+  },
+  "contagion_analysis": {
+    "total_events": 2830,
+    "path_counts": {
+      "零售商→批发商": 1839,
+      "分销商→制造商": 397,
+      "批发商→分销商": 594
+    }
+  },
+  "blocking_effect": {
+    "1": {
+      "node": "零售商",
+      "bwe_baseline": 4.05,
+      "bwe_exp1": 4.01,
+      "bwe_exp2": 3.7728854034010006,
+      "reduction_exp1_vs_base": -0.9876543209876552,
+      "reduction_exp2_vs_base": -6.842335718493807,
+      "reduction_exp2_vs_exp1": -5.91308220945135
+    },
+    "2": {
+      "node": "批发商",
+      "bwe_baseline": 16.25,
+      "bwe_exp1": 15.78,
+      "bwe_exp2": 8.158528299607696,
+      "reduction_exp1_vs_base": -2.8923076923076962,
+      "reduction_exp2_vs_base": -49.79367200241418,
+      "reduction_exp2_vs_exp1": -48.29829974900066
+    },
+    "3": {
+      "node": "分销商",
+      "bwe_baseline": 67.33,
+      "bwe_exp1": 10.65,
+      "bwe_exp2": 9.811723718166661,
+      "reduction_exp1_vs_base": -84.18238526659736,
+      "reduction_exp2_vs_base": -85.42741167656816,
+      "reduction_exp2_vs_exp1": -7.871138796557177
+    },
+    "4": {
+      "node": "制造商",
+      "bwe_baseline": 301.75,
+      "bwe_exp1": 22.7,
+      "bwe_exp2": 10.065908400640897,
+      "reduction_exp1_vs_base": -92.47721623860812,
+      "reduction_exp2_vs_base": -96.66415628810574,
+      "reduction_exp2_vs_exp1": -55.65679118660398
+    }
+  },
+  "overorder_analysis": {
+    "panic": {
+      "1": 0.4159510645806376,
+      "2": 0.44203850768439695,
+      "3": 0.4825226363444936,
+      "4": 0.516861776393513
+    },
+    "neutral": {
+      "1": 0.5813953488372093,
+      "2": 0.865546218487395,
+      "3": 0.6744186046511628,
+      "4": 0.20648967551622419
+    }
+  }
+}

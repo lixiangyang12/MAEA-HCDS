@@ -1,0 +1,182 @@
+# ============================================================
+# MAEA-HCDS 多智能体情绪感知人智协同决策系统 - .gitignore
+# 论文: 情绪扰动、激励阻断与协同鲁棒：多智能体供应链牛鞭效应缓解研究
+# ============================================================
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ---- 虚拟环境 ----
+venv/
+env/
+ENV/
+.venv/
+.env
+TraeAI-*/
+emotion-marl/
+myenv/
+
+# ---- IDE ----
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+
+# ---- AI助手配置 (不入库) ----
+.agents/
+.claude/
+.codex/
+.cursor/
+.gemini/
+.github/hooks/
+.kiro/
+.opencode/
+.pi/
+.qoder/
+.trae/
+.trae-cn/
+.rovodev/
+-d/
+
+# ---- 训练产物 (不入库, 可从config+seed复现) ----
+logs/
+logs_test/
+runs/
+events.out.tfevents.*
+tensorboard/
+
+# ---- 模型checkpoint (按需保留) ----
+# 注: idmr_model.pkl 保留入库, 便于其他作者直接复现
+# *.pth
+# *.pt
+# *.ckpt
+
+# ---- 操作系统 ----
+.DS_Store
+Thumbs.db
+desktop.ini
+*.lnk
+
+# ---- 临时文件 ----
+*.tmp
+*.temp
+*.log
+*.bak
+_tmp_*.json
+_tmp_*.txt
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+*.ipynb
+
+# ---- 大型压缩包 (不入库) ----
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# ---- 个人资料 (不入库) ----
+# 个人文档
+12个人陈述书.docx
+2026博士招生大数据*
+2026北京智源大会参会嘉宾邀请函.pdf
+9天冲刺_*.html
+BAAI2026*
+ai-bubble-when-burst-report.pdf
+Anthropic+创始人手册*.pdf
+PDFMathTranslate-main*.zip
+ReproRun-main.zip
+latex-templates-main.zip
+latex3-develop.zip
+latex*.zip
+1017399600_*.zip
+个人陈述书*
+申博材料/
+Adaptive Inventory Strategies_中文翻译.docx
+东北财经大学*
+博士研究计划书_*.docx
+燕山大学*.docx
+燕山大学读博*
+管理学科复习.docx
+管理学科知识卡片.html
+附件2：*.docx
+个人创业手册*
+人智协同时代管理科学创新_文献梳理与建模设想_*.docx
+李勇教授学术研究阅读报告.docx
+改进牛鞭效应新途径_人智协同决策系统_712*.docx
+博士第一篇论文/
+杨理想-个人简历*
+复试自我介绍*
+三体突击法*
+复杂性科学专题学习*
+复杂性科学PPT演示.html
+斯坦福STORM方法_深度研究.md
+李宇教授*
+王磊教授*
+论证图谱_人机协同决策.md
+深度学习仓_STORM深度调研报告*
+深度学习仓_商业价值提升方案*
+个人创业手册.md
+博士研究计划书_杨理想.md
+改进牛鞭效应新途径：人智协同决策系统/
+实验报告_IDMR牛鞭效应缓解.md
+skills-lock.json
+
+# ---- 个人学习资料 (不入库) ----
+信息论_完整学习手册.html
+决策理论学习*.html
+前景理论专题学习.html
+反馈与信息的联动_完整学习手册.html
+期望效用理论专题学习.html
+系统论*.html
+贝叶斯决策专题学习.html
+管理学知识卡片.html
+论证图谱_人机协同决策.*
+微信图片_*.jpg
+2026年博士招生名单.xlsx
+
+# ---- 早期实验docx (不入库, 保留719版) ----
+实验结果分析*.docx
+实验设计方案*.docx
+实验基础设置.docx
+基础实验_牛鞭效应对比分析.docx
+参数敏感性分析_迭代日志.docx
+消融实验完整日志.docx
+核心算法.docx
+核心算法表_对照与修正.docx
+理性决策与智慧决策核心算法及公式.docx
+投稿摘要表格_中国管理科学.docx
+情绪扰动*_718修改后.docx
+情绪扰动*_718导师意见修改版.docx
+Exp_2综合分析_人智协同智慧决策.docx
+改进牛鞭效应新途径*_712*.docx
+管理学复习.docx
+svg_figures/图.pptx
+
+# ---- Word临时文件 ----
+~$*
+
+# ---- 评审中间产物 (按需保留) ----
+# 论文评审意见_*.md 保留入库, 体现研究演进过程
+# 情绪扰动*_719修改后.docx 保留入库, 论文主稿

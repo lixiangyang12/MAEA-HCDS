@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 1060" font-family="'SimHei','Microsoft YaHei','Arial',sans-serif">
+  <defs>
+    <!-- Arrow markers -->
+    <marker id="ar-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#666"/>
+    </marker>
+    <marker id="al-gray" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M10,0 L0,5 L10,10 Z" fill="#666"/>
+    </marker>
+    <marker id="ar-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#2980B9"/>
+    </marker>
+    <marker id="ar-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#16A085"/>
+    </marker>
+    <marker id="ar-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#E67E22"/>
+    </marker>
+    <marker id="al-orange" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M10,0 L0,5 L10,10 Z" fill="#E67E22"/>
+    </marker>
+    <marker id="ar-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#8E44AD"/>
+    </marker>
+    <marker id="al-purple" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M10,0 L0,5 L10,10 Z" fill="#8E44AD"/>
+    </marker>
+    <marker id="ar-purple-s" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#8E44AD"/>
+    </marker>
+    <marker id="ar-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#C0392B"/>
+    </marker>
+    <marker id="ar-dark" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#2C3E50"/>
+    </marker>
+    <marker id="ar-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#27AE60"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1120" height="1060" fill="white"/>
+
+  <!-- ===== Layer 1: 供应链节点层 (y: 15-150) ===== -->
+  <g id="layer1">
+    <rect x="10" y="15" width="1100" height="140" rx="6" fill="#F0F3F4" stroke="#D5DBDB" stroke-width="0.8"/>
+    <rect x="20" y="25" width="135" height="24" rx="12" fill="#34495E"/>
+    <text x="87.5" y="42" text-anchor="middle" fill="white" font-size="14.5" font-weight="bold">① 供应链节点层</text>
+
+    <!-- Node k=1: 零售商 -->
+    <rect x="180" y="55" width="190" height="65" rx="5" fill="#D6EAF8" stroke="#34495E" stroke-width="1.5"/>
+    <text x="275" y="80" text-anchor="middle" fill="#2C3E50" font-size="16" font-weight="bold">零售商</text>
+    <text x="275" y="100" text-anchor="middle" fill="#566573" font-size="13">k = 1 (Retailer)</text>
+
+    <!-- Node k=2: 批发商 -->
+    <rect x="420" y="55" width="190" height="65" rx="5" fill="#D6EAF8" stroke="#34495E" stroke-width="1.5"/>
+    <text x="515" y="80" text-anchor="middle" fill="#2C3E50" font-size="16" font-weight="bold">批发商</text>
+    <text x="515" y="100" text-anchor="middle" fill="#566573" font-size="13">k = 2 (Wholesaler)</text>
+
+    <!-- Node k=3: 分销商 (主节点) -->
+    <rect x="660" y="55" width="190" height="65" rx="5" fill="#FDEBD0" stroke="#E67E22" stroke-width="2"/>
+    <text x="755" y="80" text-anchor="middle" fill="#7E5109" font-size="16" font-weight="bold">分销商</text>
+    <text x="755" y="100" text-anchor="middle" fill="#A04000" font-size="13">k = 3 (Distributor)</text>
+
+    <!-- Node k=4: 制造商 -->
+    <rect x="900" y="55" width="190" height="65" rx="5" fill="#D6EAF8" stroke="#34495E" stroke-width="1.5"/>
+    <text x="995" y="80" text-anchor="middle" fill="#2C3E50" font-size="16" font-weight="bold">制造商</text>
+    <text x="995" y="100" text-anchor="middle" fill="#566573" font-size="13">k = 4 (Manufacturer)</text>
+
+    <!-- Arrows: 订单流→ (top) and 物流← (bottom) -->
+    <!-- Gap 1: 370-420 -->
+    <line x1="372" y1="78" x2="416" y2="78" stroke="#666" stroke-width="1.5" marker-end="url(#ar-gray)"/>
+    <text x="394" y="72" text-anchor="middle" fill="#555" font-size="11">订单流</text>
+    <line x1="418" y1="103" x2="374" y2="103" stroke="#666" stroke-width="1.5" marker-end="url(#al-gray)"/>
+    <text x="394" y="116" text-anchor="middle" fill="#555" font-size="11">物流</text>
+
+    <!-- Gap 2: 610-660 -->
+    <line x1="612" y1="78" x2="656" y2="78" stroke="#666" stroke-width="1.5" marker-end="url(#ar-gray)"/>
+    <text x="634" y="72" text-anchor="middle" fill="#555" font-size="11">订单流</text>
+    <line x1="658" y1="103" x2="614" y2="103" stroke="#666" stroke-width="1.5" marker-end="url(#al-gray)"/>
+    <text x="634" y="116" text-anchor="middle" fill="#555" font-size="11">物流</text>
+
+    <!-- Gap 3: 850-900 -->
+    <line x1="852" y1="78" x2="896" y2="78" stroke="#666" stroke-width="1.5" marker-end="url(#ar-gray)"/>
+    <text x="874" y="72" text-anchor="middle" fill="#555" font-size="11">订单流</text>
+    <line x1="898" y1="103" x2="854" y2="103" stroke="#666" stroke-width="1.5" marker-end="url(#al-gray)"/>
+    <text x="874" y="116" text-anchor="middle" fill="#555" font-size="11">物流</text>
+  </g>
+
+  <!-- ===== Layer 2: IDMR决策层 (y: 160-290) ===== -->
+  <g id="layer2">
+    <rect x="10" y="160" width="1100" height="130" rx="6" fill="#EBF5FB" stroke="#AED6F1" stroke-width="0.8"/>
+    <rect x="20" y="170" width="135" height="24" rx="12" fill="#2980B9"/>
+    <text x="87.5" y="187" text-anchor="middle" fill="white" font-size="14.5" font-weight="bold">② IDMR决策层</text>
+
+    <!-- IDMR k=1 -->
+    <rect x="180" y="200" width="190" height="65" rx="5" fill="#D4E6F1" stroke="#2980B9" stroke-width="1.2"/>
+    <text x="275" y="225" text-anchor="middle" fill="#1B4F72" font-size="15" font-weight="bold">IDMR</text>
+    <text x="275" y="245" text-anchor="middle" fill="#2874A6" font-size="13">协同节点 (k=1)</text>
+
+    <!-- IDMR k=2 -->
+    <rect x="420" y="200" width="190" height="65" rx="5" fill="#D4E6F1" stroke="#2980B9" stroke-width="1.2"/>
+    <text x="515" y="225" text-anchor="middle" fill="#1B4F72" font-size="15" font-weight="bold">IDMR</text>
+    <text x="515" y="245" text-anchor="middle" fill="#2874A6" font-size="13">协同节点 (k=2)</text>
+
+    <!-- IDMR+情绪 k=3 (主节点) -->
+    <rect x="660" y="200" width="190" height="65" rx="5" fill="#FAD7A0" stroke="#E67E22" stroke-width="2"/>
+    <text x="755" y="222" text-anchor="middle" fill="#7E5109" font-size="15" font-weight="bold">IDMR + 情绪</text>
+    <text x="755" y="242" text-anchor="middle" fill="#A04000" font-size="13" font-weight="bold">主节点 (k=3)</text>
+    <text x="755" y="258" text-anchor="middle" fill="#A04000" font-size="11">Main Node</text>
+
+    <!-- IDMR k=4 -->
+    <rect x="900" y="200" width="190" height="65" rx="5" fill="#D4E6F1" stroke="#2980B9" stroke-width="1.2"/>
+    <text x="995" y="225" text-anchor="middle" fill="#1B4F72" font-size="15" font-weight="bold">IDMR</text>
+    <text x="995" y="245" text-anchor="middle" fill="#2874A6" font-size="13">协同节点 (k=4)</text>
+
+    <!-- Vertical dashed connectors L1→L2 -->
+    <line x1="275" y1="120" x2="275" y2="200" stroke="#ABB2B9" stroke-width="0.8" stroke-dasharray="3,3"/>
+    <line x1="515" y1="120" x2="515" y2="200" stroke="#ABB2B9" stroke-width="0.8" stroke-dasharray="3,3"/>
+    <line x1="755" y1="120" x2="755" y2="200" stroke="#ABB2B9" stroke-width="0.8" stroke-dasharray="3,3"/>
+    <line x1="995" y1="120" x2="995" y2="200" stroke="#ABB2B9" stroke-width="0.8" stroke-dasharray="3,3"/>
+  </g>
+
+  <!-- ===== Layer 3: 决策流程 (y: 295-415) ===== -->
+  <g id="layer3">
+    <rect x="10" y="295" width="1100" height="120" rx="6" fill="#E8F8F5" stroke="#A3E4D7" stroke-width="0.8"/>
+    <rect x="20" y="305" width="110" height="24" rx="12" fill="#16A085"/>
+    <text x="75" y="322" text-anchor="middle" fill="white" font-size="14.5" font-weight="bold">③ 决策流程</text>
+
+    <!-- 5 flow boxes -->
+    <!-- Box 1: 状态感知 -->
+    <rect x="155" y="335" width="155" height="55" rx="5" fill="#D1F2EB" stroke="#16A085" stroke-width="1.2"/>
+    <text x="232.5" y="358" text-anchor="middle" fill="#0E6655" font-size="14.5" font-weight="bold">状态感知</text>
+    <text x="232.5" y="376" text-anchor="middle" fill="#148F77" font-size="12">State Perception</text>
+
+    <!-- Arrow 1→2 -->
+    <line x1="312" y1="362.5" x2="348" y2="362.5" stroke="#16A085" stroke-width="1.5" marker-end="url(#ar-teal)"/>
+
+    <!-- Box 2: 情绪演化 -->
+    <rect x="350" y="335" width="155" height="55" rx="5" fill="#D1F2EB" stroke="#16A085" stroke-width="1.2"/>
+    <text x="427.5" y="356" text-anchor="middle" fill="#0E6655" font-size="14.5" font-weight="bold">情绪演化</text>
+    <text x="427.5" y="372" text-anchor="middle" fill="#148F77" font-size="11.5">式(1)-(2) Emotion Evol.</text>
+    <text x="427.5" y="384" text-anchor="middle" fill="#148F77" font-size="11">E = tanh(αE' + γΦ)</text>
+
+    <!-- Arrow 2→3 -->
+    <line x1="507" y1="362.5" x2="543" y2="362.5" stroke="#16A085" stroke-width="1.5" marker-end="url(#ar-teal)"/>
+
+    <!-- Box 3: DQN决策 -->
+    <rect x="545" y="335" width="155" height="55" rx="5" fill="#A9DFBF" stroke="#16A085" stroke-width="1.5"/>
+    <text x="622.5" y="358" text-anchor="middle" fill="#0E6655" font-size="14.5" font-weight="bold">DQN 决策</text>
+    <text x="622.5" y="376" text-anchor="middle" fill="#148F77" font-size="12">DQN Decision</text>
+
+    <!-- Arrow 3→4 -->
+    <line x1="702" y1="362.5" x2="738" y2="362.5" stroke="#16A085" stroke-width="1.5" marker-end="url(#ar-teal)"/>
+
+    <!-- Box 4: 情绪调节 -->
+    <rect x="740" y="335" width="155" height="55" rx="5" fill="#D1F2EB" stroke="#16A085" stroke-width="1.2"/>
+    <text x="817.5" y="356" text-anchor="middle" fill="#0E6655" font-size="14.5" font-weight="bold">情绪调节</text>
+    <text x="817.5" y="372" text-anchor="middle" fill="#148F77" font-size="11.5">式(5)-(6) Regulation</text>
+    <text x="817.5" y="384" text-anchor="middle" fill="#148F77" font-size="11">Loss Aversion</text>
+
+    <!-- Arrow 4→5 -->
+    <line x1="897" y1="362.5" x2="933" y2="362.5" stroke="#16A085" stroke-width="1.5" marker-end="url(#ar-teal)"/>
+
+    <!-- Box 5: 订单输出 -->
+    <rect x="935" y="335" width="155" height="55" rx="5" fill="#D1F2EB" stroke="#16A085" stroke-width="1.2"/>
+    <text x="1012.5" y="358" text-anchor="middle" fill="#0E6655" font-size="14.5" font-weight="bold">订单输出</text>
+    <text x="1012.5" y="376" text-anchor="middle" fill="#148F77" font-size="12">Order Output</text>
+  </g>
+
+  <!-- ===== Layer 4: 情绪传染层 (y: 420-510) ===== -->
+  <g id="layer4">
+    <rect x="10" y="420" width="1100" height="90" rx="6" fill="#FEF5E7" stroke="#FAD7A0" stroke-width="0.8"/>
+    <rect x="20" y="430" width="135" height="24" rx="12" fill="#E67E22"/>
+    <text x="87.5" y="447" text-anchor="middle" fill="white" font-size="14.5" font-weight="bold">④ 情绪传染层</text>
+
+    <text x="170" y="447" fill="#7E5109" font-size="13.5" font-weight="bold">式(8) 恐慌情绪上游传染</text>
+
+    <!-- Upstream contagion arrows (right to left: k=4→k=3→k=2→k=1) -->
+    <!-- Arrow k=4→k=3 -->
+    <line x1="900" y1="475" x2="855" y2="475" stroke="#E67E22" stroke-width="1.5" marker-end="url(#al-orange)"/>
+    <text x="877" y="468" text-anchor="middle" fill="#A04000" font-size="11">传染</text>
+
+    <!-- Arrow k=3→k=2 -->
+    <line x1="660" y1="475" x2="615" y2="475" stroke="#E67E22" stroke-width="1.5" marker-end="url(#al-orange)"/>
+    <text x="637" y="468" text-anchor="middle" fill="#A04000" font-size="11">传染</text>
+
+    <!-- Arrow k=2→k=1 -->
+    <line x1="420" y1="475" x2="375" y2="475" stroke="#E67E22" stroke-width="1.5" marker-end="url(#al-orange)"/>
+    <text x="397" y="468" text-anchor="middle" fill="#A04000" font-size="11">传染</text>
+
+    <!-- Parameters -->
+    <rect x="380" y="486" width="360" height="20" rx="10" fill="white" stroke="#E67E22" stroke-width="0.8"/>
+    <text x="560" y="500" text-anchor="middle" fill="#A04000" font-size="13">
+      SIR模型: s<tspan baseline-shift="sub" font-size="10">c</tspan> = 0.4,  p<tspan baseline-shift="sub" font-size="10">c</tspan> = 0.3
+    </text>
+  </g>
+
+  <!-- ===== Layer 5: 协同通信层 (y: 515-605) ===== -->
+  <g id="layer5">
+    <rect x="10" y="515" width="1100" height="90" rx="6" fill="#F5EEF8" stroke="#D7BDE2" stroke-width="0.8"/>
+    <rect x="20" y="525" width="135" height="24" rx="12" fill="#8E44AD"/>
+    <text x="87.5" y="542" text-anchor="middle" fill="white" font-size="14.5" font-weight="bold">⑤ 协同通信层</text>
+
+    <text x="170" y="542" fill="#6C3483" font-size="13.5" font-weight="bold">信息共享 (双向传递)</text>
+
+    <!-- Bidirectional arrows between nodes -->
+    <!-- k=1 ↔ k=2 -->
+    <line x1="375" y1="570" x2="415" y2="570" stroke="#8E44AD" stroke-width="1.5" marker-end="url(#ar-purple-s)" marker-start="url(#al-purple)"/>
+    <text x="395" y="563" text-anchor="middle" fill="#6C3483" font-size="10.5">需求</text>
+
+    <!-- k=2 ↔ k=3 -->
+    <line x1="615" y1="570" x2="655" y2="570" stroke="#8E44AD" stroke-width="1.5" marker-end="url(#ar-purple-s)" marker-start="url(#al-purple)"/>
+    <text x="635" y="563" text-anchor="middle" fill="#6C3483" font-size="10.5">库存</text>
+
+    <!-- k=3 ↔ k=4 -->
+    <line x1="855" y1="570" x2="895" y2="570" stroke="#8E44AD" stroke-width="1.5" marker-end="url(#ar-purple-s)" marker-start="url(#al-purple)"/>
+    <text x="875" y="563" text-anchor="middle" fill="#6C3483" font-size="10.5">订单</text>
+
+    <!-- Labels -->
+    <text x="275" y="575" text-anchor="middle" fill="#6C3483" font-size="12">k=1</text>
+    <text x="515" y="575" text-anchor="middle" fill="#6C3483" font-size="12">k=2</text>
+    <text x="755" y="575" text-anchor="middle" fill="#6C3483" font-size="12">k=3</text>
+    <text x="995" y="575" text-anchor="middle" fill="#6C3483" font-size="12">k=4</text>
+
+    <text x="560" y="595" text-anchor="middle" fill="#7D3C98" font-size="12">需求信息 / 库存状态 / 订单状态  ←→  双向实时共享</text>
+  </g>
+
+  <!-- ===== Layer 6: 动态事件注入 (y: 610-735) ===== -->
+  <g id="layer6">
+    <rect x="10" y="610" width="1100" height="125" rx="6" fill="#FDEDEC" stroke="#F5B7B1" stroke-width="0.8"/>
+    <rect x="20" y="620" width="135" height="24" rx="12" fill="#C0392B"/>
+    <text x="87.5" y="637" text-anchor="middle" fill="white" font-size="14.5" font-weight="bold">⑥ 动态事件注入</text>
+
+    <!-- Event box 1: 需求突变 -->
+    <rect x="250" y="655" width="260" height="60" rx="5" fill="#FADBD8" stroke="#C0392B" stroke-width="1.5"/>
+    <text x="380" y="678" text-anchor="middle" fill="#922B21" font-size="15" font-weight="bold">式(9) 需求突变</text>
+    <text x="380" y="695" text-anchor="middle" fill="#CB4335" font-size="12.5">Demand Shock</text>
+    <text x="380" y="708" text-anchor="middle" fill="#CB4335" font-size="12.5">53 次 / 20k 周期</text>
+
+    <!-- Downward arrow from event to supply chain -->
+    <line x1="380" y1="655" x2="380" y2="618" stroke="#C0392B" stroke-width="1" stroke-dasharray="4,3" opacity="0.5"/>
+
+    <!-- Event box 2: 供应中断 -->
+    <rect x="610" y="655" width="260" height="60" rx="5" fill="#FADBD8" stroke="#C0392B" stroke-width="1.5"/>
+    <text x="740" y="678" text-anchor="middle" fill="#922B21" font-size="15" font-weight="bold">式(10) 供应中断</text>
+    <text x="740" y="695" text-anchor="middle" fill="#CB4335" font-size="12.5">Supply Disruption</text>
+    <text x="740" y="708" text-anchor="middle" fill="#CB4335" font-size="12.5">23 次 / 20k 周期</text>
+
+    <!-- Downward arrow from event to supply chain -->
+    <line x1="740" y1="655" x2="740" y2="618" stroke="#C0392B" stroke-width="1" stroke-dasharray="4,3" opacity="0.5"/>
+
+    <!-- Total label -->
+    <text x="960" y="688" text-anchor="middle" fill="#922B21" font-size="15">合计: 76 次</text>
+    <text x="960" y="704" text-anchor="middle" fill="#922B21" font-size="12">动态突发事件</text>
+  </g>
+
+  <!-- ===== Layer 7: 持续学习层 (y: 740-830) ===== -->
+  <g id="layer7">
+    <rect x="10" y="740" width="1100" height="90" rx="6" fill="#EAEDED" stroke="#BDC3C7" stroke-width="0.8"/>
+    <rect x="20" y="750" width="135" height="24" rx="12" fill="#2C3E50"/>
+    <text x="87.5" y="767" text-anchor="middle" fill="white" font-size="14.5" font-weight="bold">⑦ 持续学习层</text>
+
+    <text x="170" y="767" fill="#1A5276" font-size="13.5" font-weight="bold">式(15)-(16)</text>
+
+    <!-- EWC box -->
+    <rect x="250" y="785" width="240" height="38" rx="5" fill="#D5D8DC" stroke="#2C3E50" stroke-width="1.2"/>
+    <text x="370" y="802" text-anchor="middle" fill="#1C2833" font-size="14" font-weight="bold">EWC 弹性权重整合</text>
+    <text x="370" y="817" text-anchor="middle" fill="#566573" font-size="12.5">λ = 400</text>
+
+    <!-- Plus sign -->
+    <text x="515" y="808" text-anchor="middle" fill="#2C3E50" font-size="20" font-weight="bold">+</text>
+
+    <!-- PER box -->
+    <rect x="540" y="785" width="240" height="38" rx="5" fill="#D5D8DC" stroke="#2C3E50" stroke-width="1.2"/>
+    <text x="660" y="802" text-anchor="middle" fill="#1C2833" font-size="14" font-weight="bold">PER 优先经验回放</text>
+    <text x="660" y="817" text-anchor="middle" fill="#566573" font-size="12.5">Prioritized Replay</text>
+
+    <!-- Arrow to model update -->
+    <line x1="785" y1="804" x2="840" y2="804" stroke="#2C3E50" stroke-width="1.5" marker-end="url(#ar-dark)"/>
+
+    <!-- Model update box -->
+    <rect x="845" y="785" width="180" height="38" rx="5" fill="#AEB6BF" stroke="#2C3E50" stroke-width="1.5"/>
+    <text x="935" y="808" text-anchor="middle" fill="#1C2833" font-size="14" font-weight="bold">模型参数更新</text>
+  </g>
+
+  <!-- ===== Layer 8: 评估输出层 (y: 835-925) ===== -->
+  <g id="layer8">
+    <rect x="10" y="835" width="1100" height="90" rx="6" fill="#EAFAF1" stroke="#A9DFBF" stroke-width="0.8"/>
+    <rect x="20" y="845" width="135" height="24" rx="12" fill="#27AE60"/>
+    <text x="87.5" y="862" text-anchor="middle" fill="white" font-size="14.5" font-weight="bold">⑧ 评估输出层</text>
+
+    <text x="170" y="862" fill="#1D8348" font-size="13.5" font-weight="bold">式(11)-(14)</text>
+
+    <!-- BWE box -->
+    <rect x="250" y="878" width="190" height="38" rx="5" fill="#D5F5E3" stroke="#27AE60" stroke-width="1.2"/>
+    <text x="345" y="895" text-anchor="middle" fill="#145A32" font-size="14" font-weight="bold">BWE 牛鞭效应</text>
+    <text x="345" y="910" text-anchor="middle" fill="#239B56" font-size="12">式(11)-(12)</text>
+
+    <!-- Cost box -->
+    <rect x="475" y="878" width="190" height="38" rx="5" fill="#D5F5E3" stroke="#27AE60" stroke-width="1.2"/>
+    <text x="570" y="895" text-anchor="middle" fill="#145A32" font-size="14" font-weight="bold">Cost 总成本</text>
+    <text x="570" y="910" text-anchor="middle" fill="#239B56" font-size="12">式(13)</text>
+
+    <!-- SL box -->
+    <rect x="700" y="878" width="190" height="38" rx="5" fill="#D5F5E3" stroke="#27AE60" stroke-width="1.2"/>
+    <text x="795" y="895" text-anchor="middle" fill="#145A32" font-size="14" font-weight="bold">SL 服务水平</text>
+    <text x="795" y="910" text-anchor="middle" fill="#239B56" font-size="12">式(14)</text>
+
+    <!-- Output arrow -->
+    <line x1="900" y1="897" x2="960" y2="897" stroke="#27AE60" stroke-width="1.5" marker-end="url(#ar-green)"/>
+    <text x="985" y="901" fill="#1D8348" font-size="13" font-weight="bold">输出</text>
+  </g>
+
+  <!-- ===== Feedback loop arrow (right side, from Layer 8 back to Layer 2) ===== -->
+  <path d="M 1095 897 Q 1112 897 1112 870 L 1112 232 Q 1112 210 1095 232"
+        fill="none" stroke="#95A5A6" stroke-width="1.2" stroke-dasharray="5,4" marker-end="url(#ar-gray)"/>
+  <text x="1108" y="560" text-anchor="middle" fill="#7F8C8D" font-size="11.5" transform="rotate(-90 1108 560)">反馈更新 Feedback Update</text>
+
+  <!-- ===== Legend (bottom) ===== -->
+  <g id="legend" transform="translate(180, 1000)">
+    <rect x="0" y="0" width="14" height="10" rx="2" fill="#FDEBD0" stroke="#E67E22" stroke-width="1"/>
+    <text x="20" y="9" fill="#566573" font-size="12">主节点</text>
+
+    <rect x="70" y="0" width="14" height="10" rx="2" fill="#D4E6F1" stroke="#2980B9" stroke-width="1"/>
+    <text x="90" y="9" fill="#566573" font-size="12">协同节点</text>
+
+    <line x1="160" y1="5" x2="185" y2="5" stroke="#E67E22" stroke-width="1.5" marker-end="url(#al-orange)"/>
+    <text x="195" y="9" fill="#566573" font-size="12">情绪传染</text>
+
+    <line x1="260" y1="5" x2="285" y2="5" stroke="#8E44AD" stroke-width="1.5"/>
+    <line x1="260" y1="5" x2="285" y2="5" stroke="#8E44AD" stroke-width="1.5" transform=""/>
+    <text x="295" y="9" fill="#566573" font-size="12">双向通信</text>
+
+    <line x1="365" y1="5" x2="390" y2="5" stroke="#C0392B" stroke-width="1.2" stroke-dasharray="4,3"/>
+    <text x="400" y="9" fill="#566573" font-size="12">事件注入</text>
+
+    <line x1="470" y1="5" x2="495" y2="5" stroke="#95A5A6" stroke-width="1.2" stroke-dasharray="5,4"/>
+    <text x="505" y="9" fill="#566573" font-size="12">反馈回路</text>
+
+    <line x1="575" y1="5" x2="600" y2="5" stroke="#ABB2B9" stroke-width="0.8" stroke-dasharray="3,3"/>
+    <text x="610" y="9" fill="#566573" font-size="12">部署映射</text>
+  </g>
+</svg>
